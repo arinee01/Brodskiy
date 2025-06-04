@@ -1,0 +1,988 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Brodsky Project – Metadata Alignment</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <style>
+      body {
+        background: linear-gradient(to right, #f6e9c9, #f2d6ba);
+        color: #3c2a10;
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background: #5e4b2c;
+        color: #fff;
+        padding: 1.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      nav a {
+        margin-left: 1.5rem;
+        font-size: 0.9rem;
+      }
+
+      .wrapper {
+        padding: 4rem 2rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        border-bottom: 2px solid #b47b00;
+        padding-bottom: 0.5rem;
+        margin-bottom: 2rem;
+        color: #3c2a10;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+        color: #4e3a25;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 0.9rem;
+        color: #5e4b2c;
+        background: #f5e6c8;
+        margin-top: 4rem;
+      }
+
+      footer a {
+        color: #b47b00;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+        
+      .glass-table-container {
+          backdrop-filter: blur(12px);
+          background: rgba(255, 255, 255, 0.15);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          border-radius: 16px;
+          padding: 1.5rem;
+          margin: 2rem auto;
+          max-width: 1000px;
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+          overflow-x: auto;
+        }
+        
+        .glass-table {
+          width: 100%;
+          border-collapse: collapse;
+          color: #3c2a10;
+          font-size: 1rem;
+        }
+        
+        .glass-table th,
+        .glass-table td {
+          padding: 0.75rem 1rem;
+          text-align: left;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .glass-table th {
+          background-color: rgba(255, 255, 255, 0.2);
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+        }
+        
+        .glass-table tr:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+        main {
+          max-width: 1100px;
+          margin: 0 auto;
+          padding: 3rem 2rem;
+          text-align: center;
+        }
+        
+        main h1, main h2 {
+          text-align: center;
+        }
+        
+        main p {
+          max-width: 800px;
+          margin: 0 auto 2rem;
+          line-height: 1.6;
+        }
+        
+      
+    </style>
+  </head>
+  <body class="metadata-page">
+
+
+    <header>
+      <a href="index.html">Brodsky Project</a>
+      <nav>
+        <a href="index.html#knowledge">Knowledge Organization</a>
+        <a href="index.html#representation">Knowledge Representation</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <main>
+    <div class="wrapper">
+      <h1>Metadata Alignment</h1>
+      <p>
+        This section presents the crosswalk of metadata elements from major cultural heritage standards used to describe items related to Brodsky’s life and work.
+      </p>
+
+   <!-- Watermark -->
+<section class="glass-table-container">
+  <h2>CCE Watermark</h2>
+  <table class="glass-table">
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>DC</th>
+        <th>ISBD</th>
+        <th>MARC21</th>
+        <th>RDA</th>
+        <th>EBUCore</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Title</td>
+        <td>&lt;dc:title&gt;</td>
+        <td>1.1 Title proper</td>
+        <td>245 $a Title statement</td>
+        <td>rdai:titleOfItem</td>
+        <td>ebucore:title</td>
+      </tr>
+      <tr>
+        <td>Author</td>
+        <td>&lt;dc:creator&gt;</td>
+        <td>1.4 Statement of responsibility</td>
+        <td>100 $a Personal Name</td>
+        <td>rdau:creator</td>
+        <td>ebucore:hasCreator</td>
+      </tr>
+      <tr>
+        <td>Publisher</td>
+        <td>&lt;dc:publisher&gt;</td>
+        <td>4.2 Name of publisher</td>
+        <td>260 $b Name of publisher</td>
+        <td>rdau:publisher</td>
+        <td>ebucore:publisher</td>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td>&lt;dc:date&gt;</td>
+        <td>4.3 Date of publication, production and/or distribution</td>
+        <td>264 $c Date of creation</td>
+        <td>rdau:dateOfProduction</td>
+        <td>ebucore:date</td>
+      </tr>
+      <tr>
+        <td>Place</td>
+        <td>&lt;dc:coverage&gt;</td>
+        <td>4.1 Place of creation</td>
+        <td>264 $a Place of creation</td>
+        <td>rdau:placeOfProduction</td>
+        <td>ebucore:location</td>
+      </tr>
+      <tr>
+        <td>Type</td>
+        <td>&lt;dc:type&gt;</td>
+        <td>0.1 Content Form</td>
+        <td>336 Content Type</td>
+        <td>rdai:categoryOfItem</td>
+        <td>ebucore:type</td>
+      </tr>
+      <tr>
+        <td>Genre</td>
+        <td>&lt;dc:type&gt;</td>
+        <td>7.1.2.1 Genre notes</td>
+        <td>380 Form Of Work</td>
+        <td>rdau:categoryOfEntity</td>
+        <td>ebucore:hasGenre</td>
+      </tr>
+      <tr>
+        <td>Subject</td>
+        <td>&lt;dc:subject&gt;</td>
+        <td>7.10.2 Note providing a summary</td>
+        <td>600 Subject Access Fields</td>
+        <td>rdau:subject</td>
+        <td>dc:subject</td>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>&lt;dc:language&gt;</td>
+        <td>7.1.2 Language note</td>
+        <td>041 $a Language code</td>
+        <td>rdau:languageOfExpression</td>
+        <td>ebucore:language</td>
+      </tr>
+      <tr>
+        <td>Description</td>
+        <td>&lt;dc:description&gt;</td>
+        <td>7.10.2 Note providing a summary</td>
+        <td>520 Summary, etc. note</td>
+        <td>rdai:notesOnItem</td>
+        <td>ebucore:description</td>
+      </tr>
+      <tr>
+        <td>Relation</td>
+        <td>&lt;dc:relation&gt;</td>
+        <td>/</td>
+        <td>580 Linking Entry Complexity Notes</td>
+        <td>rdau:relatedEntityOfEntity</td>
+        <td>ebucore:hasRelatedResource</td>
+      </tr>
+      <tr>
+        <td>Identifier</td>
+        <td>&lt;dc:identifier&gt;</td>
+        <td>8.1 Resource identifier</td>
+        <td>020 ISBN or 035 $a (System Control Number)</td>
+        <td>rdai:standardNumber</td>
+        <td>ebucore:identifier</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+   <!-- Lagoon -->
+<section class="glass-table-container">
+  <h2>Lagoon</h2>
+  <table class="glass-table">
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>DC</th>
+        <th>ISBD</th>
+        <th>MARC21</th>
+        <th>RDA</th>
+        <th>EBUCore</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Title</td>
+        <td>&lt;dc:title&gt;</td>
+        <td>1.1 Title proper</td>
+        <td>245 $a Title</td>
+        <td>rdai:titleOfItem</td>
+        <td>ebucore:title</td>
+      </tr>
+      <tr>
+        <td>Author</td>
+        <td>&lt;dc:creator&gt;</td>
+        <td>1.4 Statement of responsibility</td>
+        <td>100 $a Personal Name</td>
+        <td>rdau:creator</td>
+        <td>ebucore:hasCreator</td>
+      </tr>
+      <tr>
+        <td>Type</td>
+        <td>&lt;dc:type&gt;</td>
+        <td>0.1 Content Form</td>
+        <td>336 Content Type</td>
+        <td>rdai:categoryOfItem</td>
+        <td>ebucore:type</td>
+      </tr>
+      <tr>
+        <td>Genre</td>
+        <td>&lt;dc:type&gt;</td>
+        <td>7.1.2.1 Genre notes</td>
+        <td>380 Form Of Work</td>
+        <td>rdau:categoryOfEntity</td>
+        <td>ebucore:hasGenre</td>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td>&lt;dc:date&gt;</td>
+        <td>4.3 Date of creation</td>
+        <td>264 $c Date of creation</td>
+        <td>rdau:dateOfProduction</td>
+        <td>ebucore:date</td>
+      </tr>
+      <tr>
+        <td>Place</td>
+        <td>&lt;dc:coverage&gt;</td>
+        <td>4.1 Place of creation</td>
+        <td>264 $a Place of creation</td>
+        <td>rdau:placeOfProduction</td>
+        <td>ebucore:location</td>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>&lt;dc:language&gt;</td>
+        <td>7.1.2 Notes on language</td>
+        <td>041 $a Language code</td>
+        <td>rdau:languageOfExpression</td>
+        <td>ebucore:language</td>
+      </tr>
+      <tr>
+        <td>Identifier</td>
+        <td>&lt;dc:identifier&gt;</td>
+        <td>8.1 Resource Identifier</td>
+        <td>020 ISBN / 035 System control</td>
+        <td>rdai:identifierOfItem</td>
+        <td>ebucore:identifier</td>
+      </tr>
+      <tr>
+        <td>Description / Context</td>
+        <td>&lt;dc:description&gt;</td>
+        <td>7.7 Note on contents / setting</td>
+        <td>520 Summary or scope</td>
+        <td>rdai:notesOnItem</td>
+        <td>ebucore:description</td>
+      </tr>
+      <tr>
+        <td>General note</td>
+        <td>&lt;dc:description&gt;</td>
+        <td>7.7 Note on contents or other information</td>
+        <td>500 General Note</td>
+        <td>rdai:noteOnItem</td>
+        <td>ebucore:description</td>
+      </tr>
+      <tr>
+        <td>Language note (detailed)</td>
+        <td>&lt;dc:language&gt;</td>
+        <td>7.1.2 Notes on language</td>
+        <td>546 Language Note</td>
+        <td>rdau:languageStatement</td>
+        <td>ebucore:language</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+   <!-- Venezian Stanzas -->
+   <section class="glass-table-container">
+    <h2>Venezian Stanzas</h2>
+    <table class="glass-table">
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>DC</th>
+          <th>ISBD</th>
+          <th>MARC21</th>
+          <th>RDA</th>
+          <th>EBUCore</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Title</td>
+          <td>&lt;dc:title&gt;</td>
+          <td>1.1 Title proper</td>
+          <td>245 $a Title Statement</td>
+          <td>rdai:titleOfItem</td>
+          <td>ebucore:title</td>
+        </tr>
+        <tr>
+          <td>Author</td>
+          <td>&lt;dc:creator&gt;</td>
+          <td>1.4 Statement of responsibility</td>
+          <td>100 $a Main Entry – Personal Name</td>
+          <td>rdau:creator</td>
+          <td>ebucore:hasCreator</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>&lt;dc:type&gt;</td>
+          <td>0.1 Content Form</td>
+          <td>336 Content Type</td>
+          <td>rdai:categoryOfItem</td>
+          <td>ebucore:type</td>
+        </tr>
+        <tr>
+          <td>Genre</td>
+          <td>&lt;dc:type&gt;</td>
+          <td>7.1.2.1 Genre notes</td>
+          <td>380 Form Of Work</td>
+          <td>rdai:categoryOfItem</td>
+          <td>ebucore:hasGenre</td>
+        </tr>
+        <tr>
+          <td>Subject</td>
+          <td>&lt;dc:subject&gt;</td>
+          <td>7.10.2 Notes on summary</td>
+          <td>600 Subject Access Field</td>
+          <td>rdau:subject</td>
+          <td>dc:subject</td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td>&lt;dc:language&gt;</td>
+          <td>7.1.2 Note on language</td>
+          <td>041 $a Language code</td>
+          <td>rdau:languageOfExpression</td>
+          <td>ebucore:language</td>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td>&lt;dc:date&gt;</td>
+          <td>4.3 Date of creation</td>
+          <td>264 $c Date of creation</td>
+          <td>rdau:dateOfProduction</td>
+          <td>ebucore:date</td>
+        </tr>
+        <tr>
+          <td>Publisher</td>
+          <td>&lt;dc:publisher&gt;</td>
+          <td>4.2 Name of publisher</td>
+          <td>260 $b Name of publisher</td>
+          <td>rdau:publisher</td>
+          <td>ebucore:publisher</td>
+        </tr>
+        <tr>
+          <td>Place</td>
+          <td>&lt;dc:coverage&gt;</td>
+          <td>4.1 Place of creation</td>
+          <td>264 $a Place of creation</td>
+          <td>rdau:placeOfProduction</td>
+          <td>ebucore:location</td>
+        </tr>
+        <tr>
+          <td>Relation</td>
+          <td>&lt;dc:relation&gt;</td>
+          <td>7.2.4.7 Notes on related works</td>
+          <td>580 Linking Entry Complexity Notes</td>
+          <td>rdau:relatedEntityOfEntity</td>
+          <td>ebucore:hasRelatedResource</td>
+        </tr>
+        <tr>
+          <td>Identifier</td>
+          <td>&lt;dc:identifier&gt;</td>
+          <td>8.1 Resource identifier</td>
+          <td>020 ISBN or 035 $a (System Control Number)</td>
+          <td>rdai:standardNumber</td>
+          <td>ebucore:identifier</td>
+        </tr>
+        <tr>
+          <td>Description</td>
+          <td>&lt;dc:description&gt;</td>
+          <td>7.10.2 Summary note</td>
+          <td>520 Summary, etc.</td>
+          <td>rdai:notesOnItem</td>
+          <td>ebucore:description</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <!-- Suitcase -->
+  <section class="glass-table-container">
+    <h2>Suitcase</h2>
+    <table class="glass-table">
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>DC</th>
+          <th>CDWA</th>
+          <th>CDWA Lite</th>
+          <th>CIDOC CRM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>&lt;dc:title&gt;</td>
+          <td>Title Text, Object/Work Type</td>
+          <td>cdwalite:titleWrap/titleSet</td>
+          <td>E41 Appellation</td>
+        </tr>
+        <tr>
+          <td>Creator/Owner</td>
+          <td>&lt;dc:creator&gt;</td>
+          <td>Creator Display, Creator Role</td>
+          <td>cdwalite:displayCreator</td>
+          <td>E39 Actor, P51 has former or current owner</td>
+        </tr>
+        <tr>
+          <td>Date of creation</td>
+          <td>&lt;dc:date&gt;</td>
+          <td>Creation Date, Display Date</td>
+          <td>cdwalite:displayCreationDate</td>
+          <td>E52 Time-Span, P108i was produced by</td>
+        </tr>
+        <tr>
+          <td>Storage location</td>
+          <td>&lt;dc:coverage&gt;</td>
+          <td>Current Location, Repository Name</td>
+          <td>cdwalite:repositoryWrap</td>
+          <td>E53 Place, P55 has current location</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>&lt;dc:type&gt;</td>
+          <td>Object/Work Type</td>
+          <td>cdwalite:objectWorkTypeWrap</td>
+          <td>E55 Type</td>
+        </tr>
+        <tr>
+          <td>Material</td>
+          <td>&lt;dc:format&gt;</td>
+          <td>Materials and Techniques</td>
+          <td>cdwalite:materialTechWrap</td>
+          <td>E57 Material, P45 consists of</td>
+        </tr>
+        <tr>
+          <td>Description / Note</td>
+          <td>&lt;dc:description&gt;</td>
+          <td>Description, Inscriptions, Display Note</td>
+          <td>cdwalite:descriptionWrap</td>
+          <td>E33 Linguistic Object, P3 has note</td>
+        </tr>
+        <tr>
+          <td>ID/Link</td>
+          <td>&lt;dc:identifier&gt;</td>
+          <td>Object/Work ID</td>
+          <td>cdwalite:id</td>
+          <td>E42 Identifier, P1 is identified by</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <!-- Joseph Brodsky’s Grave -->
+    <section class="glass-table-container">
+      <h2>Joseph Brodsky’s Grave</h2>
+      <table class="glass-table">
+        <thead>
+          <tr>
+            <th>Property</th>
+            <th>DC</th>
+            <th>CDWA</th>
+            <th>CDWA Lite</th>
+            <th>CIDOC CRM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Title</td>
+            <td>&lt;dc:title&gt;</td>
+            <td>object/work - title</td>
+            <td>cdwalite:title</td>
+            <td>crm:E35_Title</td>
+          </tr>
+          <tr>
+            <td>Type</td>
+            <td>&lt;dc:type&gt;</td>
+            <td>object/work type</td>
+            <td>cdwalite:type</td>
+            <td>crm:E55_Type</td>
+          </tr>
+          <tr>
+            <td>Creator / Artist</td>
+            <td>&lt;dc:creator&gt;</td>
+            <td>creator / artist</td>
+            <td>cdwalite:creator</td>
+            <td>crm:E39_Actor (P14_created)</td>
+          </tr>
+          <tr>
+            <td>Subject</td>
+            <td>&lt;dc:subject&gt;</td>
+            <td>subject</td>
+            <td>cdwalite:subject</td>
+            <td>P129_is_about + E21_Person</td>
+          </tr>
+          <tr>
+            <td>Date</td>
+            <td>&lt;dc:date&gt;</td>
+            <td>creation date / event date</td>
+            <td>cdwalite:date</td>
+            <td>crm:E67_Birth / E69_Death</td>
+          </tr>
+          <tr>
+            <td>Place</td>
+            <td>&lt;dc:coverage&gt;</td>
+            <td>location / repository</td>
+            <td>cdwalite:coverage</td>
+            <td>crm:E53_Place / P55, P74</td>
+          </tr>
+          <tr>
+            <td>Inscription</td>
+            <td>&lt;dc:description&gt;</td>
+            <td>inscriptions / textual elements</td>
+            <td>cdwalite:description</td>
+            <td>crm:P128_carries</td>
+          </tr>
+          <tr>
+            <td>Relation</td>
+            <td>&lt;dc:relation&gt;</td>
+            <td>related work / commemorated person</td>
+            <td>cdwalite:relation</td>
+            <td>crm:P129_is_about</td>
+          </tr>
+          <tr>
+            <td>Identifier</td>
+            <td>&lt;dc:identifier&gt;</td>
+            <td>object ID</td>
+            <td>cdwalite:identifier</td>
+            <td>crm:P1_is_identified_by</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  <!--Photograph -->
+        <section class="glass-table-container">
+          <h2>Photograph</h2>
+          <table class="glass-table">
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th>ISBD</th>
+                <th>PRISM</th>
+                <th>METS-SAN</th>
+                <th>VRA Core</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Title</td>
+                <td>1.1 Title proper</td>
+                <td>&lt;dc:title&gt;</td>
+                <td>&lt;ead:prefercite&gt;</td>
+                <td>&lt;title&gt;</td>
+              </tr>
+              <tr>
+                <td>Creator</td>
+                <td>—</td>
+                <td>&lt;dc:creator&gt; </td>
+                <td>&lt;ead:creator&gt; </td>
+                <td>&lt;author&gt; </td>
+              </tr>
+              <tr>
+                <td>Date</td>
+                <td>4.3 Date of publication / 4.6 Date of printing</td>
+                <td>&lt;prism:creationDate&gt;, &lt;prism:publicationDate&gt;</td>
+                <td>&lt;ead:unitdate normal=""&gt;</td>
+                <td>&lt;date type="creation"&gt;</td>
+              </tr>
+              <tr>
+                <td>Place</td>
+                <td>4.1 Place of publication / production</td>
+                <td>&lt;prism:location&gt;</td>
+                <td>&lt;ead:geogname&gt;</td>
+                <td>&lt;subject term type="geographicPlace"&gt;</td>
+              </tr>
+              <tr>
+                <td>Format/Material</td>
+                <td>5.1.2 Specific material, 5.2.2 Composition</td>
+                <td>&lt;dc:format&gt;</td>
+                <td>&lt;ead:physdesc&gt;, &lt;ead:genreform type="supporto"&gt;</td>
+                <td>&lt;material type="support"&gt;</td>
+              </tr>
+              <tr>
+                <td>Type</td>
+                <td>0.1 Content form, 0.2 Media type</td>
+                <td>&lt;dc:type&gt;, &lt;prism:contentType&gt;</td>
+                <td>&lt;ead:phystech&gt;, &lt;mix:FormatDesignation&gt;</td>
+                <td>&lt;worktype&gt;</td>
+              </tr>
+              <tr>
+                <td>Language</td>
+                <td>7.1.2 Note on language</td>
+                <td>&lt;dc:language&gt;</td>
+                <td>&lt;ead:language&gt;, &lt;ead:langmaterial&gt;</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td>Subject</td>
+                <td>7.7 / 7.10.2 Notes on content / summary</td>
+                <td>&lt;dc:subject&gt;, &lt;prism:person&gt;, &lt;prism:location&gt;, &lt;prism:event&gt;</td>
+                <td>&lt;ead:subject&gt;</td>
+                <td>&lt;subject&gt;, &lt;subject term type="person"&gt;</td>
+              </tr>
+              <tr>
+                <td>Description</td>
+                <td>7.10.2 Note providing a summary</td>
+                <td>&lt;dc:description&gt;</td>
+                <td>&lt;ead:abstract&gt;</td>
+                <td>description</td>
+              </tr>
+              <tr>
+                <td>Identifier</td>
+                <td>8.1 Resource Identifier</td>
+                <td>&lt;dc:identifier&gt;</td>
+                <td>&lt;mets:altRecordID TYPE="SAN"&gt;</td>
+                <td>&lt;image id=""&gt;</td>
+              </tr>
+              <tr>
+                <td>Owner / Rights</td>
+                <td>—</td>
+                <td>&lt;prism:corporateEntity&gt;, &lt;dc:rights&gt;</td>
+                <td>&lt;mets:agent ROLE="IPOWNER" TYPE="ORGANIZATION"&gt;, &lt;mets:name&gt;</td>
+                <td>&lt;rightsHolder&gt;</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+  <!--Documentary film -->
+  <section class="glass-table-container">
+    <h2>Documentary film</h2>
+    <table class="glass-table">
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>EAD</th>
+          <th>EBUCore</th>
+          <th>ISBD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Title</td>
+          <td>&lt;title&gt;</td>
+          <td>&lt;ebucore:title&gt;</td>
+          <td>1.1 Title proper</td>
+        </tr>
+        <tr>
+          <td>Publisher</td>
+          <td>&lt;publisher&gt;</td>
+          <td>&lt;dc:publisher&gt;</td>
+          <td>4.2 Name of publisher, producer and/or distributor</td>
+        </tr>
+        <tr>
+          <td>Date of creation</td>
+          <td>&lt;unitdate&gt;</td>
+          <td>&lt;ebucore:date&gt;</td>
+          <td>4.3 Date of publication, production and/or distribution</td>
+        </tr>
+        <tr>
+          <td>Place of creation</td>
+          <td>&lt;geogname&gt;</td>
+          <td>&lt;ebucore:location&gt;</td>
+          <td>4.1 Place of publication, production and/or distribution</td>
+        </tr>
+        <tr>
+          <td>Content</td>
+          <td>&lt;abstract&gt;</td>
+          <td>&lt;ebucore:description&gt;</td>
+          <td>7.7 Note on contents, 7.10.2 Note providing a summary</td>
+        </tr>
+        <tr>
+          <td>Subject</td>
+          <td>&lt;subject&gt;</td>
+          <td>&lt;dc:Subject&gt;</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>&lt;genreform&gt;</td>
+          <td>&lt;ebucore:Type&gt;</td>
+          <td>0.1 Content form, 0.2 Media type</td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td>&lt;langmaterial&gt;</td>
+          <td>&lt;ebucore:language&gt;</td>
+          <td>7.1.2 Note on nature, scope, form, purpose, language</td>
+        </tr>
+        <tr>
+          <td>Sonour</td>
+          <td>&lt;physdesc&gt; (audio)</td>
+          <td>&lt;ebucore:audioFormat&gt;</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Sequences</td>
+          <td>&lt;arrangement&gt;&lt;item&gt;</td>
+          <td>&lt;ebucore:part&gt;</td>
+          <td>5.1.3 Subunits</td>
+        </tr>
+        <tr>
+          <td>Duration</td>
+          <td>&lt;physdesc&gt;</td>
+          <td>&lt;ebucore:duration&gt;</td>
+          <td>5.1.5 Playing time</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+    <!--Memorial Plaque -->
+  <section class="glass-table-container">
+    <h2>Memorial Plaque</h2>
+    <table class="glass-table">
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>DC</th>
+          <th>CDWA</th>
+          <th>CDWA-Lite</th>
+          <th>CIDOC CRM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Title</td>
+          <td>&lt;dc:title&gt;</td>
+          <td>Title</td>
+          <td>&lt;title&gt;</td>
+          <td>crm:E35_Title</td>
+        </tr>
+        <tr>
+          <td>Creator / Artist</td>
+          <td>&lt;dc:creator&gt;</td>
+          <td>Creator Display Name</td>
+          <td>&lt;displayCreator&gt;</td>
+          <td>crm:E39_Actor → P94_created → E22</td>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td>&lt;dc:date&gt;</td>
+          <td>Creation Date, Earliest/Latest Date</td>
+          <td>&lt;displayCreationDate&gt;</td>
+          <td>crm:E52_Time-Span + P4_has_time-span</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>&lt;dc:type&gt;</td>
+          <td>Object/Work Type</td>
+          <td>&lt;objectWorkType&gt;</td>
+          <td>crm:E55_Type</td>
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>&lt;dc:coverage&gt;</td>
+          <td>Current Location</td>
+          <td>&lt;location&gt;</td>
+          <td>crm:E53_Place → P55_has_current_location</td>
+        </tr>
+        <tr>
+          <td>Subject</td>
+          <td>&lt;dc:subject&gt;</td>
+          <td>Subject, Subject Description</td>
+          <td>&lt;subject&gt;</td>
+          <td>crm:E1_CRM_Entity → P129_is_about</td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td>&lt;dc:language&gt;</td>
+          <td>Inscription Language (if textual)</td>
+          <td>&lt;inscriptions&gt;</td>
+          <td>crm:E34_Inscription → P72_has_language</td>
+        </tr>
+        <tr>
+          <td>Inscription Text</td>
+          <td>&lt;dc:description&gt;</td>
+          <td>Inscriptions, Text Content</td>
+          <td>&lt;inscriptions&gt;</td>
+          <td>crm:E34_Inscription → P190_has_symbolic_content</td>
+        </tr>
+        <tr>
+          <td>Material</td>
+          <td>&lt;dc:format&gt;</td>
+          <td>Materials and Techniques</td>
+          <td>&lt;materialsTech&gt;</td>
+          <td>crm:E57_Material → P45_consists_of</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <!-- Pensione Academia -->
+<section class="glass-table-container">
+  <h2>Pensione Academia</h2>
+  <table class="glass-table">
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>DC</th>
+        <th>CDWA</th>
+        <th>CDWA-Lite</th>
+        <th>CIDOC CRM</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Title</td>
+        <td>&lt;dc:title&gt;</td>
+        <td>Title</td>
+        <td>&lt;title&gt;</td>
+        <td>crm:E35_Title</td>
+      </tr>
+      <tr>
+        <td>Architect / Builder</td>
+        <td>&lt;dc:creator&gt;</td>
+        <td>Creator Display Name</td>
+        <td>&lt;displayCreator&gt;</td>
+        <td>crm:E39_Actor → P94_created → E22</td>
+      </tr>
+      <tr>
+        <td>Date of Construction</td>
+        <td>&lt;dc:date&gt;</td>
+        <td>Creation Date, Display Date</td>
+        <td>&lt;displayCreationDate&gt;</td>
+        <td>crm:E52_Time-Span → P4_has_time-span</td>
+      </tr>
+      <tr>
+        <td>Type</td>
+        <td>&lt;dc:type&gt;</td>
+        <td>Object/Work Type</td>
+        <td>&lt;objectWorkType&gt;</td>
+        <td>crm:E55_Type</td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>&lt;dc:coverage&gt;</td>
+        <td>Current Location</td>
+        <td>&lt;location&gt;</td>
+        <td>crm:E53_Place → P55_has_current_location</td>
+      </tr>
+      <tr>
+        <td>Function / Use</td>
+        <td>&lt;dc:subject&gt;</td>
+        <td>Function, Use, Purpose</td>
+        <td>&lt;subject&gt;</td>
+        <td>crm:E55_Type or crm:E7_Activity</td>
+      </tr>
+      <tr>
+        <td>Description</td>
+        <td>&lt;dc:description&gt;</td>
+        <td>Description of Structure</td>
+        <td>&lt;description&gt;</td>
+        <td>crm:E22_Man-Made_Object → P3_has_note</td>
+      </tr>
+      <tr>
+        <td>Material</td>
+        <td>&lt;dc:format&gt;</td>
+        <td>Materials and Techniques</td>
+        <td>&lt;materialsTech&gt;</td>
+        <td>crm:E57_Material → P45_consists_of</td>
+      </tr>
+      <tr>
+        <td>Identifier</td>
+        <td>&lt;dc:identifier&gt;</td>
+        <td>Object/Building ID</td>
+        <td>&lt;id&gt;</td>
+        <td>crm:E42_Identifier → P1_is_identified_by</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+</div>
+</main>
+<footer>
+  <p>
+    Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a> |
+    Design by Your Team
+  </p>
+</footer>
+
+</body>
+</html>
