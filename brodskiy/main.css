@@ -1,0 +1,486 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf4;
+  margin: 0;
+}
+body.metadata-page {
+  background: linear-gradient(135deg, #fdf6e3, #fbeac2, #f2dcc0);
+  background-attachment: fixed;
+}
+
+
+a {
+  color: #b47b00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #a06500;
+}
+
+#topbar {
+  background-color: #f5e6c8;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topbar-portrait {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e9d7b0;
+}
+
+.topbar-nav {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar-nav li a {
+  color: #5e4b2c;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.topbar-nav li a:hover {
+  color: #a06500;
+}
+
+
+
+#intro {
+  background: linear-gradient(to right, #f6e9c9, #f2d6ba);
+  color: #4d392f;
+  padding: 4rem 2rem;
+  text-align: left;
+}
+
+#intro h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#intro p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Современная кнопка: тень, масштабирование, свечение при наведении */
+.button {
+  background-color: transparent;
+  color: #5e4b2c;
+  padding: 0.75rem 1.6rem;
+  border: 2px solid #b47b00;
+  border-radius: 999px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.button:hover {
+  transform: scale(1.05);
+  border-color: #b47b00;
+  box-shadow: 0 0 0 2px rgba(180, 123, 0, 0.3), 0 8px 20px rgba(0, 0, 0, 0.15);
+  background-color: #fdd8a7;
+  color: #3c2a10;
+}
+
+/* Spotlights layout */
+.spotlights > section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 400px;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+  
+}
+
+.spotlights .image {
+  flex: 1;
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.spotlights .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.spotlights .image:hover img {
+  transform: scale(1.10);
+}
+/* Эффект масштабирования при появлении в зоне видимости */
+.spotlights .image img {
+  transform: scale(1);
+  transition: transform 0.6s ease;
+}
+
+.spotlights .image.in-view img {
+  transform: scale(1.05);
+}
+
+.spotlights .content {
+  flex: 1;
+  background: linear-gradient(to bottom right, #fef2d8, #f6dfc4);
+  color: #4e3a25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  transition: background 0.3s ease;
+}
+
+.spotlights .content .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрируем по горизонтали */
+  justify-content: center; /* Центрируем по вертикали */
+  gap: 1rem; /* Меньше расстояние между элементами */
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.spotlights .content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.spotlights .content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.spotlights .content ul.actions {
+  margin: 0;
+}
+
+/* Knowledge Organization section */
+#knowledge {
+  background: url('images/background-venice.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 5rem 2rem 3rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#knowledge::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(254, 238, 223, 0.85), rgba(101, 86, 63, 0.85));
+  z-index: -1;
+}
+
+#knowledge h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+#knowledge p {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.knowledge-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; /* центрирует всё по горизонтали */
+  text-align: center;  /* выравнивание текста */
+  background:	rgba(255, 250, 236, 0.5); /* мягкий бежевый */
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  height: auto;
+  min-height: 360px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.knowledge-card:hover {
+  transform: translateY(-4px);
+  border-color: #b47b00;
+}
+#knowledge h2 {
+  color: #3a2b1a; /* тёплый тёмно-коричневый */
+  font-weight: 700;
+}
+
+.knowledge-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #3a2b1a; /* насыщенный тёплый тёмный */
+  font-weight: bold;
+}
+
+.knowledge-card p {
+  font-size: 1rem;
+  color: #4e3a25;
+  flex-grow: 1;
+  margin-bottom: 2rem;
+}
+
+.knowledge-card .button {
+  align-self: flex-start;
+  align-self: center;
+  
+}
+
+/* Обёртка на всю ширину */
+#representation {
+  background: linear-gradient(to right, #a2815e, #4f3d28);
+  color: #ffffff;
+  padding: 5rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Центрируем .inner */
+#representation .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+/* Подзаголовок */
+#representation .subtitle {
+  font-size: 1.1rem;
+  margin: 0 auto 2rem;
+  color: #f5e8e5;
+  max-width: 800px;
+}
+
+/* Сетка карточек */
+#representation .knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-content: center; /* центрирует содержимое сетки */
+  align-items: stretch;
+  margin-top: 2rem;
+}
+
+/* Карточка */
+#representation .knowledge-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+#representation .knowledge-card:hover {
+  transform: translateY(-5px);
+  border-color: #ffcc70;
+}
+
+#representation .knowledge-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#representation .knowledge-card p {
+  font-size: 1rem;
+  color: #eee;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Кнопка */
+#representation .button {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0.6rem 1.4rem;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+}
+
+#representation .button:hover {
+  background-color: #ffffff;
+  color: #322618;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+.about-section {
+  padding: 4rem 2rem;
+  background-color: #fdfaf4;
+  color: #3a2b1a;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-section .inner {
+  padding: 0 1rem;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #3a2b1a;
+}
+
+.about-section h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #4d392f;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-section p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #5e4b2c;
+  margin-bottom: 1.2rem;
+}
+
+.about-section ul {
+  margin-left: 1.2rem;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.team-card {
+  background: linear-gradient(to bottom right, #fdf6e3, #fbeac2);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 280px;
+  text-align: center;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.team-info {
+  padding: 1.5rem 1rem;
+  color: #3a2b1a;
+}
+
+.team-info h4 {
+  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #5e4b2c;
+}
+
+.team-info p {
+  font-size: 0.95rem;
+  color: #6c5433;
+  line-height: 1.5;
+}
+.quote-block {
+  margin-top: 4rem;
+  padding: 2rem;
+  background: linear-gradient(to right, #f5e6c8, #fef7e0);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  text-align: center;
+  color: #5e4b2c;
+  font-style: italic;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quote-block blockquote {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.quote-block cite {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
