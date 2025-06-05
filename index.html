@@ -210,7 +210,7 @@
       <div class="inner">
         <h2>Pensione Accademia, Venice</h2>
         <ul>
-          <li><strong>Type</strong>: Pensione</li>
+          <li><strong>Type</strong>: Pensione Accademia</li>
           <li><strong>Institution</strong>: City of Venice / Villa Maravege</li>              
         </ul>
         <ul class="actions">
@@ -303,29 +303,48 @@
     <p class="subtitle">The items and creators are described in this section on the basis of the realized conceptual model.</p>
 
     <div class="knowledge-grid">
+      <!-- CSV -->
       <div class="knowledge-card">
-        <h3>🗃 CSV Data Tables</h3>
-        <p>A collection of CSV files (one per item) describing 10 cultural heritage items using a shared vocabulary, including relationships and links to related entities.</p>
-        <a href="#" class="button">Learn more</a>
+        <h3>📄 CSV Data Tables</h3>
+        <p>A collection of 10 CSV files describing cultural heritage items related to Joseph Brodsky using shared vocabularies and linked data.</p>
+        <div class="button-group">
+          <a class="button" href="downloads/brodsky-csv.zip" download>Download All CSV</a>
+        </div>
       </div>
 
+      <!-- RDF -->
       <div class="knowledge-card">
         <h3>💡 RDF</h3>
         <p>RDF dataset generated from CSV and TEI/XML sources using Python scripts, based on a custom ontology. Links people, places, concepts, and items.</p>
-        <a href="#" class="button">Learn more</a>
+        <div class="button-group">
+          <a href="scripts/tei_to_rdf.py" class="button" target="_blank">View TEI → RDF Script</a>
+          <a href="rdf.html" class="button"  target="_blank">RDF Dataset</a>
+        </div>
       </div>
 
+      <!-- TEI/XML -->
       <div class="knowledge-card">
         <h3>📄 TEI/XML Encodings</h3>
         <p>Sample encodings of Brodsky’s works in TEI XML format, enriched with metadata and structure.</p>
-        <a href="tei/lagoon.xml" class="button" target="_blank">View Lagoon (XML)</a><br><br>
-        <a href="tei/watermark.xml" class="button" target="_blank">View Watermark (XML)</a>
+        <div class="button-group">
+          <a href="tei/lagoon.xml" class="button" target="_blank">View Lagoon (XML)</a>
+          <a href="tei/watermark.xml" class="button" target="_blank">View Watermark (XML)</a>
+        </div>
+      </div>
+
+      <!-- XML → HTML -->
+      <div class="knowledge-card">
+        <h3>🛠 XML to HTML</h3>
+        <p>Transformations of TEI XML to HTML using Python or XSLT for publication and web presentation.</p>
+        <div class="button-group">
+          <a href="scripts/tei_to_html.py" class="button" target="_blank">View Python Script</a>
+          <a href="scripts/tei_to_html.xslt" class="button" target="_blank">View XSLT Stylesheet</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-  
   <script>
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {

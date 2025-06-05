@@ -1,0 +1,106 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/item/> .
+@prefix lido: <http://www.lido-schema.org/> .
+@prefix schema: <http://schema.org/> .
+
+ex:Pensione_Academia a "Building" ;
+    dc:description "The hotel where Brodsky stayed during his visits to Venice." ;
+    dc:title "Pensione Academia" ;
+    schema:dateCreated "17th century" ;
+    schema:function "Hotel" ;
+    schema:location "Venice" ;
+    schema:relatedTo ex:Watermark .
+
+ex:Walks_with_Brodsky a "Documentary" ;
+    dc:creator "Carmen Video (DVD); TV Russia (TV)" ;
+    dc:description "A television documentary about the poet Joseph Brodsky." ;
+    dc:language "Russian" ;
+    dc:subject "Joseph Brodsky" ;
+    dc:title "Walks with Brodsky" ;
+    schema:about "Joseph_Brodsky" ;
+    schema:datePublished "1993" ;
+    schema:duration "2:42:47" ;
+    schema:hasPart "Walks with Brodsky II. Filming History" ;
+    schema:locationCreated "Venice" .
+
+ex:Brodsky_Tombstone a "Memorial" ;
+    dc:creator "Vladimir Radunsky" ;
+    dc:date "1997" ;
+    dc:description "A tombstone created by Vladimir Radunsky in memory of Joseph Brodsky." ;
+    dc:subject "Joseph Brodsky" ;
+    dc:title "Joseph Brodsky’s tombstone" ;
+    schema:location "Venice" ;
+    schema:relatedTo ex:Memorial_plaque,
+        ex:Photo_Brodsky_Venice ;
+    lido:inscriptionTranscription "Iosif Brodsky 24.V.1940–28.1.1996" .
+
+ex:Photo_Brodsky_Venice a "Image" ;
+    dc:creator "Veronica Schiltz" ;
+    dc:date "1974" ;
+    dc:description "One of a series of photographs taken during Brodsky's time in Venice." ;
+    dc:format "Photograph" ;
+    dc:subject "Joseph Brodsky" ;
+    dc:title "Photo of Brodsky in Venice" ;
+    schema:locationCreated "Venice" ;
+    schema:relatedTo ex:Brodsky_Tombstone .
+
+ex:Suitcase a "Personal artifact" ;
+    dc:description "A suitcase that belonged to Iosif Brodsky. Recovered and stored at the Anna Akhmatova Museum." ;
+    dc:title ex:Suitcase ;
+    schema:dateCreated "1940–1950" ;
+    schema:location "Anna Akhmatova Museum" ;
+    schema:locationCreated "Saint Petersburg" ;
+    schema:material "Leather; wood; cardboard; fabric; metal" ;
+    schema:owner "Joseph Brodsky" ;
+    schema:relatedTo ex:Memorial_plaque .
+
+ex:Venezian_Stanzas dc:creator "Joseph Brodsky" ;
+    dc:date "1980" ;
+    dc:language "English" ;
+    dc:subject "Venice" ;
+    dc:title "Venezian Stanzas" ;
+    dc:type "Literary text" ;
+    schema:genre "Poem" ;
+    schema:relatedTo ex:Watermark,
+        "Tombstone" .
+
+ex:Lagoon a "Literary text" ;
+    dc:creator "Joseph Brodsky" ;
+    dc:date "1973" ;
+    dc:description "Brodsky's first work dedicated to Venice" ;
+    dc:language "English" ;
+    dc:title ex:Lagoon ;
+    schema:about "Venice" ;
+    schema:comment "The original is written in Russian" ;
+    schema:genre "Poem" ;
+    schema:locationCreated "Venice" ;
+    schema:relatedTo ex:Memorial_plaque,
+        ex:Watermark .
+
+ex:Memorial_plaque a "Memorial" ;
+    dc:creator "Georgi Frangulyan" ;
+    dc:date "2009" ;
+    dc:description "A marble memorial plaque dedicated to Joseph Brodsky." ;
+    dc:language "Italian; Russian" ;
+    dc:subject "Joseph Brodsky" ;
+    dc:title "Memorial plaque" ;
+    schema:location "Venice" ;
+    schema:material "Marble" ;
+    schema:relatedTo "Tombstone" ;
+    lido:inscriptionTranscription "Brodskij Iosif (1940–1996) grande poeta russo..." .
+
+ex:Watermark a "Literary text" ;
+    dc:creator "Joseph Brodsky" ;
+    dc:date "1989" ;
+    dc:description "Lyrical essay by Joseph Brodsky that captures the spirit of Venice." ;
+    dc:language "English" ;
+    dc:publisher "The Noonday Press; Farrar, Straus & Giroux" ;
+    dc:subject "Venice" ;
+    dc:title ex:Watermark ;
+    dcterms:identifier "ISBN 978-03-7452-382-4" ;
+    schema:genre "Essay" ;
+    schema:locationCreated "New York" ;
+    schema:relatedTo ex:Lagoon,
+        ex:Venezian_Stanzas .
+

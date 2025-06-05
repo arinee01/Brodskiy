@@ -282,14 +282,23 @@ a:hover {
 
 /* Обёртка на всю ширину */
 #representation {
-  background: linear-gradient(to right, #a2815e, #4f3d28);
+  background: url('images/background-venice2.jpg') no-repeat center center;
+  background-size: cover;
   color: #ffffff;
   padding: 5rem 2rem;
-  width: 100%;
-  box-sizing: border-box;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
+#representation::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(162, 129, 94, 0.88), rgba(79, 61, 40, 0.88));
+  z-index: -1;
+}
 /* Центрируем .inner */
 #representation .inner {
   max-width: 1200px;
@@ -306,50 +315,27 @@ a:hover {
   max-width: 800px;
 }
 
-/* Сетка карточек */
-#representation .knowledge-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  justify-content: center; /* центрирует содержимое сетки */
-  align-items: stretch;
-  margin-top: 2rem;
-}
-
-/* Карточка */
 #representation .knowledge-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(6px); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  text-align: center;
-  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
   transition: transform 0.3s ease, border-color 0.3s ease;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 #representation .knowledge-card:hover {
-  transform: translateY(-5px);
-  border-color: #ffcc70;
-}
-
-#representation .knowledge-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-#representation .knowledge-card p {
-  font-size: 1rem;
-  color: #eee;
-  flex-grow: 1;
-  margin-bottom: 1.5rem;
-  line-height: 1.5;
+  transform: translateY(-4px);
+  border-color: #b47b00;
 }
 
 /* Кнопка */
@@ -460,27 +446,10 @@ a:hover {
   color: #6c5433;
   line-height: 1.5;
 }
-.quote-block {
-  margin-top: 4rem;
-  padding: 2rem;
-  background: linear-gradient(to right, #f5e6c8, #fef7e0);
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  text-align: center;
-  color: #5e4b2c;
-  font-style: italic;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.quote-block blockquote {
-  margin: 0;
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-.quote-block cite {
-  display: block;
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: 500;
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.5rem;
 }
