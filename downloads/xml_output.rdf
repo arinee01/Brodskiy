@@ -1,0 +1,552 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://brodskiy-lod.github.io/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:watermark_chapter_10_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_10 ;
+    rdf:value "Inanimate by nature, hotel room mirrors are even further dulled by having seen so many. What they return to you is not your identity but your anonymity, especially in this city. For here yourself is the last thing you care to see. On my first sojourns I often felt surprised, catching my own frame, dressed or naked, in the open wardrobe; after a while I began to wonder about this place's edenic or afterlife-like effects upon one's self- awareness. Somewhere along the line, I even developed a theory of excessive redundancy , of the mirror absorbing the body absorbing the city. The net result is, obviously, mutual negation. A reflection cannot possibly care for a reflection. The city is narcissistic enough to turn your mind into an amalgam, unburdening it ofits depths. With their similar effect on your purse, hotels and pensioties therefore feel very congenial. After a two-week stay even at offseason rates you become both broke and selfless, like a Buddhist monk. At a certain age and in a certain line of work, selflessness is welcome, not to say imperative." .
+
+ex:watermark_chapter_10_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_10 ;
+    rdf:value "Nowadays all of this is, of course, out of the question, since the clever devils shut down two-thirds of the small places in winter; the remaining third keep year round those summer rates that make you wince. Ifyou're lucky, you may find an apartment, which, naturally, comes with the owner's personal taste in paintings, chairs, curtains, with a vague sense of illegality to your face in his bathroom mirror  - in short, with precisely what you wanted to shed: yourself. Still, winter is an abstract season: it is low on colors, even in " .
+
+ex:watermark_chapter_11_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_11 ;
+    rdf:value "Anyhow, I would never come here in summer, not even at gunpoint. I take heat very poorly; the unmitigated emissions of hydrocarbons and armpits still worse. The shorts-clad herds, especially those neighing in German, also get on my nerves, because ofthe inferiority oftheir anyone's anatomy against that of the columns, pilasters, and statues; because of what their mobility and all that fuels it projects versus marble stasis. I guess I ani one of those who prefer choice to flux, and stone is always a choice. No matter how well endowed, in this city one's body, in my view, should be obscured by cloth, if only because it moves. Clothes are perhaps our only approximation of the choice made by marble." .
+
+ex:watermark_chapter_11_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_11 ;
+    rdf:value "This is, I suppose, an extreme view, but I ani a Northerner. In the abstract season life seems more real than at any other, even in the " .
+
+ex:watermark_chapter_11_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_11 ;
+    rdf:value "No, bipeds go ape about shopping and dressing up in " .
+
+ex:watermark_chapter_12_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_12 ;
+    rdf:value "In winter you wake up in this city, especially on Sundays , to the chiming ofits innumerable bells, as though behind your gauze curtains a gigantic china teaset were vibrating on a silver tray in the pearl-gray sky. You fling the window open and the room isinstantly flooded with this outer, peal-laden haze, which is part damp oxygen, part coffee and prayers. No matter what sort of pills, and how many, you've got to swallow this morning, you feel it's not over for you yet. No matter, by the same token, how autonomous you are, how niuch you've been betrayed, how thorough and dispiriting is your self- knowledge, you assume there is still hope for you, or at least a future. (Hope, said Francis Bacon, is a good breakfast but a bad supper.) This optimism derives from the haze, from the prayer part of it, especially if it is time for breakfast. On days like this, the city indeed acquires a porcelain aspect, what with all its zinc-covered cupolas resembling teapots or upturned cups, and the tilted profile ofcanipaniles clinking like abandoned spoons and melting in the sky. Not to mention the seagulls and pigeons, now sharpening into focus, now melting into air. I should say that, good though this place is for honeymoons, I've often thought it should be tried for divorces alsoboth in progress and already accomplished. There is no better backdrop for rapture to fade into; whether right or wrong, no egoist can star for long in this porcelain setting by crystal water, for it steals the show. I am aware, of course, ofthe disastrous consequence the above suggestions may have for hotel rates here, even in winter. Still, people love their melodrama more than architecture, and I don't feel threatened. It is surprising that beauty is valued less than psychology, but so long as such is the case, I'll be able to afford this citywhich means till the end ofmy days, and which ushers in the generous notion of the future." .
+
+ex:watermark_chapter_13_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_13 ;
+    rdf:value "One is what one looks at - well, at least partially. The medieval belief that a pregnant woman wishing her child to be beautiful must look at beautiful objects is not so naìve given the quality of dreams one dreams in this city. Nights here are low on nightmares - judging of course by literary sources (especially since nightmares are such sources' main fare). Wherever he goes, a sick man, for example - a cardiac cripple particularly - is bound to wake up now and then at three o'clock in the morning in a state of sheer terror, thinking he's going. Yet nothing of the sort, I must report, ever happened to me here; though as I write this, I keep my fingers and toes crossed." .
+
+ex:watermark_chapter_13_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_13 ;
+    rdf:value "There are better ways, no doubt, to manipulate dreams, and no doubt a good case can be made for it being best done gastronomically. Yet by Italian standards, the local diet is not exceptional enough to account for this city's concentration of indeed dreamlike beauty in its façades alone. For in dreams, as the poet said, begin responsibilities. In any case, some of the blueprints - an apt term in this city! - certainly sprang from that source, as there is nothing else one can trace them to in reality." .
+
+ex:watermark_chapter_13_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_13 ;
+    rdf:value "Should a poet mean to say simply, \"In bed,\" that would hold, too. Architecture is surely the least carnal of Muses, since the rectangular principle of a building, of its façade in particular, militates - and often sharply so - against your analyst's interpretation of its cloud- or wave-like - rather than feminine! - cornices, loggias, and whatnot. A blueprint, in short, is always more lucid than its analysis. Yet many a " .
+
+ex:watermark_chapter_13_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_13 ;
+    rdf:value "If there is anything erotic to those blueprints' marble consequences, it is the sensation caused by the eye trained on any of them - the sensation similar to that of the fingertips touching for the first time your beloved's breast or, better yet, shoulder. It is the telescopic sensation of coming in contact with the cellular infinity of another body's existence - a sensation known as tenderness and proportionate perhaps only to the number of cells that body contains. (Everyone would understand this, save Freudians, or Muslims believing in the veil. But then again, that may explain why among Muslims there are so many astronomers. Besides, the veil is a great social planning device, since it ensures every female a man regardless of her appearance. Worst come to worst, it guarantees that the first-night shock is at least mutual. Still, for all the Oriental motifs in Venetian architecture, Muslims in this city are the most infrequent visitors.) In any case, whichever comes first - reality or dream - one's notion of afterlife in this city appears to be well taken care of by its clearly paradisaical visual texture. Sickness alone, no matter how grave it may be, won't avail you here of an infernal vision. You'd need an extraordinary neurosis, or a comparable accumulation of sins, or both, to fall prey to nightmares on these premises." .
+
+ex:watermark_chapter_13_para_5 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_13 ;
+    rdf:value "That's possible, of course, but not too frequent. For the mild cases of either, a sojourn here is the best therapy, and that's what tourism, locally, is all about. One sleeps tight in this city, since one's feet get too tired quelling a worked-up psyche or guilty conscience alike." .
+
+ex:watermark_chapter_14_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_14 ;
+    rdf:value "Perhaps the best proof of the Almighty's existence is that we never know when we are to die. In other words, had life been a solely human affair, one would be issued at birth with a term, or a sentence, stating precisely the duration of one's presence here: the way it is done in prison camps. That this doesn't happen suggests that the affair is not entirely human; that something we've got no idea or control of interferes. That there is an agency which is not subject to ourchronology or, for that matter, our sense of virtue. Hence all these attempts to foretell or figure out one's future, hence one's reliance on physicians and gypsies, which intensifies once we are ill or in trouble, and which is but an attempt at domesticating - or demonizing - the divine. The same applies to our sentiment for beauty, natural and man-made alike, since the infinite can be appreciated only by the finite. Except for grace, the reasons for reciprocity would be unfathomable - unless one truly seeks a benevolent explanation of why they charge you so much for everything in this city." .
+
+ex:watermark_chapter_15_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_15 ;
+    rdf:value "By profession, or rather by the cumulative effect of \\vhat I've been doing over the years , I am a writer; by trade, however, I am an academic, a teacher. The winter break at my school is five weeks long, and that's what in part explains the timing of my pilgrimages here - but only in part. What Paradise and vacation have in common is that you have to pay for both, and the coin is your previous life. Fittingly then, my romance with this city with this city in this particular season started long ago: long before I developed marketable skills, long before I could afford my passion." .
+
+ex:watermark_chapter_15_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_15 ;
+    rdf:value "Sometime in 1966 I was twenty-six then a friend lent me three short novels by a French writer, Henri de Regnier, translated into Russian by  the wonderful Russian poet Mikhail Kuzmin. All I knew about Regnier at that time was that he was one of the last Parnassians, a good poet but  no great shakes. All I knew by heart of Kuzmin was a handful of his Alexandrian Songs and Clay Pigeons plus his reputation as a great aesthete, devout Orthodox, and avowed homosexual I think, in that order." .
+
+ex:watermark_chapter_15_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_15 ;
+    rdf:value "By the time I'd got those novels, both their author and their translator were long dead. The books, too, were quite moribund: paperbacks, published in the late thirties, with no bindings to speak of, disintegrating in your palm. I remember neither their titles nor their publisher; in fact, I am quite vague on their respective plots also. Somehow I am under the impression that one of them was called Provincial Entertainments, but I am not sure. I could double- check, of course, but then the friend who lent them to me died a year ago; and I won't." .
+
+ex:watermark_chapter_15_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_15 ;
+    rdf:value "They were a cross between picaresque and detective novels, and at least one of them, the one I call in my mind Provincial Entertainments, was set in " .
+
+ex:watermark_chapter_16_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_16 ;
+    rdf:value "Then one day another friend, who is still alive, brought me a disheveled issue ofLif magazine with a stunning color photo of " .
+
+ex:watermark_chapter_16_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_16 ;
+    rdf:value "Then came the Veneziana. I began to feel that this city somehow was barging into focus, tottering on the verge of the three- dimensional. It was black-and-white, as befits something emerging from literature, or winter; aristocratic, darkish, cold, dimly lit, with twangs of Vivaldi and Cherubini in the background, with Bellini/Tiepolo/Titian-draped female bodies for clouds. And I vowed to myself that should I ever get out of my empire, should this eel ever escape the " .
+
+ex:watermark_chapter_17_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_17 ;
+    rdf:value "Aperfectly decadent dream, of course; but at the age of twenty-eight everyone who's got some brains is a touch decadent. Besides, neither part of that project was feasible. So when at the age of thirty-two I all of a sudden found niysclf in the bowels of a different continent, in the middle of " .
+
+ex:watermark_chapter_18_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_18 ;
+    rdf:value "I always adhered to the idea that God is time, or at least that His spirit is. Perhaps this idea was even of my own manufacture, but now I don't remember. In any case, I always thought that if the Spirit of God moved upon the face of the water, the water was bound to reflect it. Hence my sentiment for water, for its folds, wrinkles, and ripples,and  -  as I am a Northerner  -  for its grayness. I simply think that water is the image of time, and every New Year's Eve, in somewhat pagan fashion, I try to find myself near water, preferably near a sea or an ocean, to watch the emergence of a new helping, a new cupful of time from it. I am not looking for a naked maiden riding on a shell; I am looking for either a cloud or the crest of a wave hitting the shore at midnight. That, to me, is time coming out of water, and I stare at the lace-like pattern it puts on the shore, not with a gypsy-like knowing, but with tenderness and with gratitude." .
+
+ex:watermark_chapter_18_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_18 ;
+    rdf:value "This is the way, and in my case the why, I set my eyes on this city. There is nothing Freudian to this fantasy, or specifically chor- date, although some evolutionary if not plainly atavistic or autobiographical connection could no doubt be established between the pattern a wave leaves upon the sand and its scrutiny by a descendant of the ichthyosaur, and a monster himself The upright lace of Venetian fasades is the best line time-alias-water has left on terra firma anywhere. Plus, there is no doubt a correspondence between  -  if not an outright dependence on - the rectangular nature of that lace's displays  -  i.e., local buildings  -  and the anarchy of water that spurns the notion of shape. It is as though space, cognizant here more than anyplace else of its inferiority to time, answers it with the only property time doesn't possess: with beauty. And that's why water takes this answer, twists it, wallops and shreds it, but ultimately carries it by and large intact off into the " .
+
+ex:watermark_chapter_19_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_19 ;
+    rdf:value "The eye in this city acquires an autonomy similar to that of a tear. The only difference is that it doesn't sever itself from the body but subordinates it totally. After a while  -  on the third or fourth day here  -  the body starts to regard itself as merely the eye's carrier, as a kind of submarine to its now dilating, now squinting periscope. Of course, for all its targets, its explosions are invariably self- inflicted: it's your own heart, or else your mind, that sinks; the eye pops up to the surface. This of course owes to the local topography, to the streets  -  narrow, meandering like eels -  that finally bring you to a flounder of a " .
+
+ex:watermark_chapter_1_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_1 ;
+    rdf:value "Many moons ago the dollar was 870 lire and I was thirty-two. The globe, too, was lighter by two billion souls, and the bar at the " .
+
+ex:watermark_chapter_1_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_1 ;
+    rdf:value "Every traveler knows this fix: this mixture of fatigue and apprehension. It's the time of staring down clock faces and timetables, of scrutinizing varicose marble under your feet, ofinhaling ammonia and that dull smell elicitedon cold winter nights by locomotives' cast iron. I did all this." .
+
+ex:watermark_chapter_1_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_1 ;
+    rdf:value "Save for the yawning bartender and immobile Buddha-like " .
+
+ex:watermark_chapter_1_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_1 ;
+    rdf:value "In the unlikely event that someone's eye followed my white London Fog and dark brown Borsalino, they should have cut a familiar silhouette. The night itself, to be sure, would have had no difficulty absorbing it. Mimicry, I believe, is high on the list of every traveler, and the " .
+
+ex:watermark_chapter_20_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_20 ;
+    rdf:value "A mesh caught in frozen seaweed might be a better metaphor. Because of the scarcity of space, people exist here in cellular proximity to one another, and life evolves with the immanent logic of gossip. One's territorial imperative in this city is circumscribed by water; the window shutters bar not so niuch daylight or noise (which is minimal here) as what may emanate from inside. When they are opened, shutters resemble the wings of angels prying into someone's sordid affairs, and like the spacing of the statues on cornices, human interplay here takes on theaspects of jewelry or, better yet, filigree. In these parts one is both more secretive and better informed than the police in tyrannies. No sooner do you cross the threshold of your apartment, especially in winter, than you fall prey to every conceivable surmise, fantasy, rumor. If you've got company, the next day at the grocery or newsagent you may meet a stare of biblical probing unfathomable, you would think, in a Catholic country. If you sue someone here, or vice versa, you must hire a lawyer on the outside. A traveler, of course, enjoys this sort of thing; the native doesn't. What a painter sketches, or an amateur photographs, is no fun for the citizen. Yet insinuation as a principle of city planning (which notion locally emerges only with the benefit of hindsight) is better than any modern grid and in tune with the local canals, taking their cue from water, which, like the chatter behind you, never ends. In that sense, brick is undoubtedly more potent than marble, although both are unassailable for a stranger. However, once or twice over theseseventeen years, I've managed to insinuate myself into a Venetian inner sanctum, into that beyond-the-anialgam labyrinth Regnier described in Provincial Entertainments. It happened in such a roundabout way that I can't even recall the details now, for I could not keep tabs on all those twists and turns that led to my passage into this labyrinth at the time. Somebody said something to somebody else, while the other person who wasn't even supposed to be there listened in and telephoned the fourth, as a result of which I'd been invited one night to a party given by the umpteenth at his palazzo." .
+
+ex:watermark_chapter_21_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "The palazzo had become the umpteenth's only recently, after nearly three centuries of legal battles fought by several branches of a family that had given the world a couple of Venetian admirals. Accordingly, two huge, splendidly carved aft-lanterns loomed in the two-story-high cave of the palazzo's courtyard, which was filled with all sorts of naval paraphernalia, dating from Renaissance days onward. The umpteenth himself, the last in the line, after decades and decades of waiting, had finally got it, to the great consternation of the other - apparently numerous - members of the family. He was no navy man; he was a bit of a playwright and a bit of a painter. For the moment, though, the most obvious thing about this forty-year-old  - a slim, short creature in a gray double- breasted suit of very good cut - was that he was quite sick. His skin looked post-hepatitis, parchment yellow - or perhaps it was just an ulcer. He ate nothing but consomme and boiled vegetables while his guests were gorging themselves on what would qualify as a separate chapter, if not a book." .
+
+ex:watermark_chapter_21_para_10 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "The last of them was the master bedroom. A gigantic yet uncovered four-poster bed dominated its space: the admiral's revenge for the narrow cot aboard his ship, or perhaps his homage to the sea itself. The latter was more probable, given the monstrous stucco cloud of putti descending on the bed and playing the role ofbaldachin. In fact, it was more sculpture than putti. The cherubs' faces were terribly grotesque: they all had these corrupt, lecherous grins as they stared - very keenly - downward upon the bed. They reminded me of that stable of giggling youths downstairs; and then I noticed a portable TV set in the corner of this otherwise absolutely bare room. I pictured the major domo entertaining his choice in this chamber: a writhing island ofnaked flesh amid a sea of linen, under the scrutiny of the dust- covered gypsum masterpiece. Oddly enough, I felt no repulsion. On the contrary, I felt that from time's point of view such entertainmenthere could only seem appropriate, as it generated nothing. After all, for three centuries, nothing here reigned supreme. Wars, revolutions, great discoveries, geniuses, plagues never entered here due to a legal problem. Causality was canceled, since its human carriers strolled in this perspective only in a caretaker capacity, once in a few years, if that. So the little wriggling shoal in the linen sea was, in fact, in tune with the premises, since it couldn't in nature give birth to anything. At best, the major domo's island - or should I say volcano? - existed only in the eyes ofthe putti. On the mirror's map it didn't. Neither did I." .
+
+ex:watermark_chapter_21_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "So the party was celebrating the umpteenth's having come into his own, as well as his launching a press to produce books about Venetian art. It was already in full swing when the three of us - a fellow writer, her son, and I - arrived. There were a lot of people: local and faintly international luminaries, politicos, nobles, the theater crowd, beards and ascots, mistresses of varying degrees of flamboyance, a bicycle star, American academics. Also, a bunch of giggling, agile, homosexual youths inevitable these days whenever something mildly spectacular takes place. They were presided over by a rather distraught and spiteful middle-aged queen - very blond, very blue- eyed, very drunk: the premises' major domo, whose days here were over and who therefore loathed everyone. Rightly so, I would add, given his prospects." .
+
+ex:watermark_chapter_21_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "As they were making quite a ruckus, the umpteenth politely offered to show the three of us the rest of the house. We readily agreed and went up by a small elevator. When we left its cabin, we left the twentieth, the nineteenth, and a large portion of the eighteenth century behind, or, more accurately, below: like sediment at the bottom of a narrow shaft." .
+
+ex:watermark_chapter_21_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "We found ourselves in a long, poorly lit gallery with a convex ceiling swarming with putti. No light would have helped anyway, as the walls were covered with large, floor-to- ceiling, dark-brownish oil paintings, definitely tailored to this space and separated by barely discernible marble busts and pilasters. The pictures depicted, as far as one could make out, sea and land battles, ceremonies, scenes from mythology; the lightest hue was wine-red. It was a mine of heavy porphyry in a state of abandonment, in a state of perpetual evening, with oils obscuring its ores; the silence here was truly geological. You couldn't ask, What is this? Who is this by? because of the incongruity of your voice, belonging to a later and obviously irrelevent organism. Or else it felt like an underwater journey - we were like a school of fish passing through a sunken galleon loaded with treasure, but not opening our mouths, since water would rush in." .
+
+ex:watermark_chapter_21_para_5 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "At the far end of the gallery our host flitted to the right, and we followed him into a room which appeared to be a cross between the library and the study of a seventeenth-century gentleman. Judging by the books behind the criss-crossed wire in the red, wardrobe-size wooden cabinet, the gentleman's century could even have been the sixteenth. There were about sixty fat, white, vellum-bound volumes, from Aesop to Zeno; just enough for a gentleman; more would turn him into a penseur, with disastrous consequences either for his manners or for his estate. Other than that, the room was quite bare. The light in it wasn't much better than in the gallery; I'd made out a desk and a large faded globe. Then our host turned a knob and I saw his silhouette framed by a door leading into an enfilade. I glanced at that enfilade and I shuddered: it looked like a vicious, viscous infinity. I swallowed air and stepped into it." .
+
+ex:watermark_chapter_21_para_6 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "It was a long succession of empty rooms. Rationally I knew that it couldn't be longer than the gallery parallel to which it ran. Yet it was. I had the sense of walking not so much in standard perspective as in a horizontal spiral where the laws ofoptics were suspended. Each room meant your further disappearance, the next degree of your nonexistence. This had to do with three things: drapery, mirrors, and dust. Although in some cases you could tell a room's designation - dining room, salon, possibly a nursery - most were similar in their lack of apparent function. They were about the same in size, or at any rate, they didn 't seem to differ much in that way from one another. And in each one ofthem windows were draped and two or three mirrors adorned the walls." .
+
+ex:watermark_chapter_21_para_7 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "Whatever the original color and pattern of the drapes had been, they now looked pale yellow and very brittle. A touch ofyour finger, let alone a breeze, would mean sheer destruction to them, as the shards of fabric scattered nearby on the parquet suggested. They were shedding, those curtains, and some of their folds exposed broad, bald, threadbare patches, as though the fabric felt it had come full circle and was now reverting to its pre-loom state. Our breath was perhaps too great an intimacy also; still, it was better than fresh oxygen, which, like history, the drapes didn't need. This was neither decay nor decomposition; this was dissipation back into time, where color and texture don't matter, where perhaps having learned what may happen to them, they will regroup and return, here or elsewhere, in a different guise. \"Sorry,\" they seemed to say, \"next time around we'll be more durable.\"" .
+
+ex:watermark_chapter_21_para_8 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "Then there were those mirrors, two or three in each room, of various sizes, but mostly rectangular. They all had delicate golden frames, with well-wrought floral garlands or idyllic scenes which called more attention to themselves than to their surface, since the amalgam was invariably in poor shape. In a sense, the frames were more coherent than their contents, straining, as it were, to keep them from spreading over the wall. Having grown unaccustomed over the centuries to reflecting anything but the wall opposite, the mirrors were quite reluctant to return one's visage, out of either greed or impotence, and when they tried, one's features would come back incomplete. I thought, I begin to understand Regnier. From room to room, as we proceeded through the enfilade, I saw myself in those frames less and less, getting back more and more darkness. Gradual subtraction, I thought to myself; how is this going to end? And it ended in the tenth or eleventh room. I stood by the door leading into the next chamber, staring at a largish, three-by-four-foot gilded rectangle, and instead of myself I saw pitch-black nothing. Deep and inviting, it seemed to contain a perspective of its own - perhaps another enfilade. For a moment I felt dizzy; but as I was no novelist, I skipped the option and took a doorway." .
+
+ex:watermark_chapter_21_para_9 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_21 ;
+    rdf:value "All along it had been reasonably ghostly; now it became unreasonably so. The host and my companions lagged somewhere behind; I was on my own. There was a great deal of dust everywhere; the hues and shapes of everything in sight were mitigated by its gray. Marble inlaid tables, porcelain figurines, sofas, chairs, the very parquet. Everything was powdered with it, and sometimes, as with figurines and busts, the effect was oddly beneficial, accentuating their features, their folds, the vivacity of a group. But usually its layer was thick and solid; what's more, it had an air of finality, as though no new dust could be added to it. Every surface craves dust, for dust is the flesh oftime, as a poet said, time's very flesh and blood; but here the craving seemed to be over. Now it will seep into the objects themselves, I thought, fuse with them, and in the end replace them. It depends of course on the material; some of it quite durable. They may not even disintegrate; they'll simply become grayer, as time would have nothing against assuming their shapes, the way it already had in this succession ofvacuum chambers in which it was overtaking matter." .
+
+ex:watermark_chapter_22_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_22 ;
+    rdf:value "That happened only once, although I've been told there are scores of places like this in " .
+
+ex:watermark_chapter_22_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_22 ;
+    rdf:value "In short, a time for self-oblivion, induced by a city that has ceased to be seen. Unwittingly, you take your cue from it, especially if, like it, you've got no company. Having failed to be born here, you at least can take some pride in sharing its invisibility." .
+
+ex:watermark_chapter_23_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_23 ;
+    rdf:value "On the whole, however, I've always been as keen on the contents of this city's average brick affairs as on those of the marbled and unique. There is nothing populist, let alone anti-aristocratic, to this preference; nor is there anything of the novelist. It's just the echo of the sort of houses I've lived or worked in for most of my life. Failing to have been born here, I've failed, I suppose, a bit further by picking up a line of work which normally doesn't land one on a " .
+
+ex:watermark_chapter_24_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_24 ;
+    rdf:value "At any rate, I seldom got myself across the thresholds of ordinary dwellings in this city. No tribe likes strangers, and Venetians are very tribal, in addition to being islanders. My Italian, \\vildly oscillating around its firm zero, also remained a deterrent. It always got better after a month or so, but then I'd be boarding the plane that would remove me from the opportunity to use it for another year. Therefore, the company I kept was that of English-speaking natives and expatriate Americans whose houses shared a familiar version - if not degree - of affluence. As for those who spoke Russian, the characters from the local U, their sentiments toward the country of my birth and their politics used to bring me to the brink of nausea. The result would be nearly the same with the two or three local authors and academics: too many abstract lithographs on the walls, too many tidy bookshelves and African trinkets, silent wives, sallow daughters, conversations running their moribund course through current events, someone else's fame, psychotherapy, surrealism, down to the description of a shortcut to my hotel. Disparity of pursuits compromised by tautology of net results, if one needs a formula, that is. I aspired to wasting my afternoons in the empty office of some local solicitoror pharmacist, eyeing his secretary as she brought in coffee from a bar nearby, chatting idly away about the prices of motorboats or the redeeming features of Diocletian's character, since practically everyone here has a reasonably sound education as well as a yen for things streamlined. I'd be unable to lift myself from the chair, his clients would be few; in the end, he'd lock up the premises and we'd stroll to the " .
+
+ex:watermark_chapter_24_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_24 ;
+    rdf:value "So I never slept, let alone sinned, in a cast-iron family bed with pristine, crisp linen, embroidered and richly fringed bedspread, cloudlike pillows, and small pearl-encrusted crucifix above the headboard. I never trained my vacant stare on an oleograph of the Madonna, or faded pictures of a father/ brother/uncle/son in a " .
+
+ex:watermark_chapter_25_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_25 ;
+    rdf:value "A while ago I saw somewhere a photograph of a wartime execution. Three pale, skinny men of medium height and no specific facial features (they were seen by the camera in profile) stood on the edge ofa freshly dug ditch. They had a Northern appearance -  in fact, I think the photograph was taken in " .
+
+ex:watermark_chapter_26_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_26 ;
+    rdf:value "One afternoon in November 1977, in the " .
+
+ex:watermark_chapter_26_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_26 ;
+    rdf:value "The address given was in the " .
+
+ex:watermark_chapter_26_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_26 ;
+    rdf:value "Tea was served, but no sooner had we taken the first sip than the hostess - a gray-haired, diminutive, shipshape lady with many years in her to go - lifted her sharp finger, which slid into an invisible mental groove, and out of her pursed lips canie an aria the score of which has been in the public domain at least since 1945. That Ezra wasn't a Fascist; that they were afraid the Americans (which sounded pretty strange coming from an American) would put him in the chair; that he knew nothing about what was going on; that there were no Germans in " .
+
+ex:watermark_chapter_26_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_26 ;
+    rdf:value "What woke me from my reverie was the sound of Susan's voice, which meant that the record had come to a stop. There was something odd in her timbre and I cocked my ear. Susan was saying, \"But surely, Olga, you don't think that the Americans got cross with Ezra over his broadcasts. Because if it were only his broadcasts, then Ezra would be just another Tokyo Rose.\" Now, that was one of the greatest returns I had ever heard. I looked at Olga. It must be said that she took it like a mensch. Or, better yet, a pro. Or else she didn't grasp what Susan had said, though I doubt it. \"What was it, then?\" she inquired. \"It was Ezra's anti-Semitism,\" replied Susan, and I saw the corundum needle of the old lady's finger once again hitting the groove. On this side of the record was: \"One should realize that Ezra was not an anti-Semite; that after all his name was Ezra; that some of his friends were Jewish, including one Venetian admiral; that ...\" The tune was equally familiar and equally long - about three-quarters of an hour; but this time we had to go. We thanked the old lady for the evening and bade her farewell. I, for one, did not feel the sadness one usually feels leaving the house ofa widow - or for that matter anybody alone in an empty place. The old lady was in good shape, reasonably well off; on top of that, she had the comfort of her convictions - a comfort, I felt, she'd go to any length to defend. I think I'd never met a Fascist - young or old; however, I'd dealt with a considerable number of old CP members, and that's why tea at Olga Rudge's place, with that bust of Ezra sitting on the floor, rang, so to speak, a bell. We turned to the left of the house and two minutes later found ourselves on the Fondamenta degli Incurabili." .
+
+ex:watermark_chapter_27_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_27 ;
+    rdf:value "Ah, the good old suggestive power of language! Ah, this legendary ability of words to imply more than reality can provide! Ah, the lock, stock, and barrel of the mètier. Of course, the \"Embankment ofthe Incurables\" harks back to the plague, to the epidemics that used to sweep this city half clean century after century with a census taker's regularity. The name conjures the hopeless cases, not so much strolling along as scattered about on the flagstones, literally expiring, shrouded, waiting to be carted - or, rather, shipped away. Torches, fumes, gauze masks preventing inhalation, rustling of monks' frocks and habits, soaring black capes, candles. Gradually the funereal procession turns into a carnival, or indeed a promenade, where a mask would have to be worn, since in this city everybody knows everybody. Add to this, tubercular poets and composers; add to this, men of moronic convictions or aesthetes hopelessly enamored of this place - and the Embankment might earn its name, reality might catch up with language. And add to this that the interplay between plague and literature (poetry in particular, and Italian poetry especially) was quite intricate from thethreshold. That Dante's descent into the netherworld owes as much to Homer's and Virgil's - episodic scenes, after all, in the Iliad and the Aeneid - as to Byzantine medieval literature about cholera, with its traditional conceit of premature burial and subsequent peregrination of the soul. Overzealous agents of the netherworld bustling around the cholera-stricken city would often zero in on a badly dehydrated body,put their lips to his nostrils, and suck away his life spirit, thereby proclaiming him dead and fit to be buried. Once underneath, the individual would pass through infinite halls and chambers, pleading that he has been consigned to the realm of the dead unjustly and seeking redress. Upon obtaining it - usually by facing a tribunal presided over by Hippocrates - he would return full of stories about those he had bumped into in the halls and chambers below: kings, queens, heroes, famous or infamous mortals of his time, repentant, resigned, defiant. Sounds familiar? Well, so much for the suggestive powers of the métier. One never knows what engenders what: an experience a language, or a language an experience. Both are capable of generating quite a lot. When one is badly sick, one imagines all sorts of consequences and developments which, for all we know, won't ever take place. Is this metaphoric thinking? The answer, I believe, is yes. Except that when one is sick, one hopes, even against hope, to get cured, the illness to stop. The end of an illness thus is the end of its metaphors. A metaphor - or, to put it more broadly, language itself - is by and large open-ended, it craves continuum: an afterlife, if you will. In other words (no pun intended), metaphor is incurable. Add then to all of this yourself, a carrier of this métier, or of this virus - in fact, of a couple of them, sharpening your teeth for a third - shuffling on a windy night along the Fondamenta, whose name proclaims your diagnosis regardless of the nature of your malady." .
+
+ex:watermark_chapter_28_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_28 ;
+    rdf:value "The winter light in this city! It has the extraordinary property ofenhancing your eye's power of resolution to the point of microscopic precision - the pupil, especially when it is of the gray or mustard-and-honey variety, humbles any Hasselblad lens and develops your  subsequent memories to a National Geographic sharpness. The sky is brisk blue; the sun, escaping its golden likeness beneath the foot of  " .
+
+ex:watermark_chapter_29_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_29 ;
+    rdf:value "At sunset all cities look wonderful, but some more so than others. Reliefs become suppler, columns more rotund, capitals curlier, cornices more resolute, spires starker, niches deeper, disciples more draped, angels airborne. In the streets it gets dark, but it is still daytime for the Fondamenta and that gigantic liquid mirror where motorboats, " .
+
+ex:watermark_chapter_2_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_2 ;
+    rdf:value "It was a windy night, and before my retina registered anything, I was smitten by a feeling of utter happiness: my nostrils were hit by what to me has always been its synonym, the smell of freezing seaweed. For some people, it's freshly cut grass or hay; for others, Christmas scents of conifer needles and tangerines. For me, it's freezing seaweed partly because of onomatopoeic aspects of the very conjunction (in Russian, seaweed is a wonderful " .
+
+ex:watermark_chapter_2_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_2 ;
+    rdf:value "No doubt the attraction toward that smell should have been attributed to a childhood spent by the " .
+
+ex:watermark_chapter_30_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_30 ;
+    rdf:value "And the object can be a little monster, with the head of a lion and the body ofa dolphin. The latter would coil, the former gnash its fangs. It could adorn an entrance or simply burst out of a wall without any apparent purpose, the absence of which would make it oddly recognizable. In a certain line of work, and at a certain age, nothing is more recognizable than a lack of purpose. The same goes for a fusion oftwo or more traits or properties, not to mention genders. On the whole, all these nightmarish creatures - dragons, gargoyles, basilisks, female-breasted sphinxes, winged lions, Cerberuses, Minotaurs, centaurs, chimeras - that come to us from mythology (which, by rights, should have the status of classical surrealism) are our self-portraits, in the sense that they denote the species' genetic memory of evolution. Small wonder that here, in this city sprung from water, they abound. Again, there is nothing Freudian to them, nothing sub or unconscious. Given the nature of human reality, the interpretation of dreams is a tautology and at best could bejustified only by daylight's ratio to darkness. It's doubtful, though, that this democratic principle is operational in nature, where nothing enjoys a majority. Not even water, though it reflects and refracts everything, including itself, alternating forms and substances, sometimes gently, sometimes monstrously. That's what accounts for the quality of winter light here; that's what explains its fondness for little monsters, as well as for cherubs. Presumably cherubs, too, are part of the species' evolution. Or else it is the other way around, for if one was to take their census in this city, they might outnumber the natives." .
+
+ex:watermark_chapter_31_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_31 ;
+    rdf:value "Monsters, however, command more of one's attention. If only because this term has been hurled at one more frequently than the other; if only because in our parts one gains wings only in the air force. One's guilty conscience would be enough to identify oneself with any of these marble, bronze, or plaster concoctions - withthe dragon, to say the least, rather than with San Giorgio. In a line of work involving the dipping of a pen into an inkpot, one can identify with both. After all, there is no saint without a monster - not to mention the ink's octopal affinity. But even without reflecting upon or refracting this idea, it is clear that this is a city of fish, caught and swimming around alike. And seen by a fish - endowed, let's say, with a human eye, in order to avoid its own famous distortion - man would appear a monster indeed; not an octopus, perhaps, but surely a quadropus. Something, to say the least, far more complex than the fish itself. Small wonder, then, that sharks are after us so much. Should one ask a simple " .
+
+ex:watermark_chapter_32_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_32 ;
+    rdf:value "So you never know as you move through these labyrinths whether you are pursuing a goal or running from yourself, whether you are the hunter or his prey. Surely not a saint, but perhaps not yet a full-scale dragon; hardly a Theseus, but not a maiden- starved Minotaur either. The Greek version rings, though, a better bell, since the winner gets nothing, because the slayer and the slain are related. The monster, after all, was the prize's half brother; in any case, he was half brother to the hero's eventual wife. Ariadne and Phacdra were sisters, and for all we know, the brave Athenian had them both. In fact, with an eye on marrying into the Cretan king's family, he niight have accepted the murderous commission to make the family more respectable. As granddaughters of Helios, the girls were supposed to be pure and shining; their names suggested as much. Why, even their mother, Pasiphae, was, for all her dark urges, Blindingly Bright. And perhaps she yielded to those dark urges and did it with the bull precisely to prove that nature neglects the majority principle, since the bull's horns suggest the moon. Perhaps she was interested in chiaroscuro rather than in bestiality and eclipsed the bull for purely optical reasons. And the fact that the bull, whose symbolism-laden pedigree ran all the way back to cave paintings, was blind enough to mistake the artificial cow Daedalus built for Pasiphae on this occasion is her proof that her ancestry still holds the upper hand in the system of causality, that Helios' light, refracted in her, Pasiphae, is still - after four children (two fine daughters and two good-for-nothing boys) - blindingly bright. As far as the principle ofcausality is concerned, it should be added that the main hero in this story is precisely Daedalus, who, apart from a very convincing cow, built - this time on the king's request - the very labyrinth in which the bull-headed offspring and his slayer got to face each other one day, with disastrous consequences for the former. In a manner of speaking, the whole business is Daedalus' brain child, the labyrinth especially, as it resembles a brain. In a manner of speaking, everybody is related to everybody, the pursuer to the pursued, at least. Small wonder, then, that one's ineanderings through the streets of this city, whose biggest colony for nearly three centuries was the island of Crete, feels somewhat tautological, especially as light fades - that is, especially as its pasiphaian, ariadnan, and phaedran properties fail. In other words, especially in the evening, when one loses oneself to self-deprecation." .
+
+ex:watermark_chapter_33_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_33 ;
+    rdf:value "On the brighter side there are, ofcourse, lots oflions: winged ones, with their books opened on " .
+
+ex:watermark_chapter_34_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_34 ;
+    rdf:value "Once, in a dusk that darkened gray pupils but brought gold to those of the mustard-cum- honey variety, the owner of the latter and I encountered an Egyptian warship - a light cruiser, to be precise - moored at the " .
+
+ex:watermark_chapter_35_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_35 ;
+    rdf:value "On winter evenings the sea, welled by a contrary easterly, fills every canal to the brim like a bathtub, and at times overflows them. Nobody runs up from downstairs crying, \"The pipes!\" as there is no downstairs. The city stands ankle-deep in water, and boats, " .
+
+ex:watermark_chapter_35_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_35 ;
+    rdf:value "Seventeen years ago, wading aimlessly through one " .
+
+ex:watermark_chapter_36_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_36 ;
+    rdf:value "So you may enter and stand through the service. The singing will be a bit subdued, presumably on account of the weather. If you can excuse it in this way, so, no doubt, will its Addressee. Besides, you can't follow it that well, whether it's in Italian or Latin. So you just stand or take a pew in the rear and listen. " .
+
+ex:watermark_chapter_37_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_37 ;
+    rdf:value "That's what worries the band, or more exactly, its conductors, the city fathers. According to their calculations, this city, during this century alone, has sagged twenty-three centimeters. So what appears spectacular to the tourist is a full-scale headache for the native. And if it were only a headache, that would be fine. But the headache is crowned with an increasing apprehension, not to say fear, that what lies in store for the city is the fate of Atlantis. The fear is not without foundation, and not only because the city's uniqueness does amount to a civilization of its own. The main danger is perceived to be high winter tides; the rest is done by the mainland's industry and agriculture silting the " .
+
+ex:watermark_chapter_37_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_37 ;
+    rdf:value "I have no idea what kind of fish or bacteria these are, but I'm pretty sure they exist: tyranny is seldom synonymous with expertise. At any rate, I'd call Sweden andask the Stockholm municipality for advice: in that city, with all its industry and population, the moment you step out of your hotel, the salmon leap out of the water to greet you. If it is the difference in temperature that does it, then one could try dumping blocks ofice into the canals or, failing that, routinely void the natives' freezers of ice cubes, since whiskey is not very much in vogue here, not even in winter." .
+
+ex:watermark_chapter_37_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_37 ;
+    rdf:value "\"Why, then, do you go there at such a season?\" my editor asked me once, sitting in a Chinese restaurant in " .
+
+ex:watermark_chapter_38_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_38 ;
+    rdf:value "Over these years, during my long stays and brief sojourns here, I have been, I think, both happy and unhappy in nearly equal measure. It didn't matter which, if only because I came here not for romantic purposes but to work, to finish a piece, to translate, to write a couple of poems, provided I could be that lucky; simply to be. That is, neither for a honeymoon (the closest I ever came to that was many years ago, on the island of Ischia, or else in Siena) nor for a divorce. And so I worked. Happiness or unhappiness would simply come in attendance, although sometimes they'd stay longer than I did, as if waiting on me. It is a virtue, I came to believe long ago, not to make a meal out of one's emotional life. There's always enough work to do, not to mentionthat there's world enough outside. In the end, there's always this city. As long as it exists, I don't believe that I, or, for that matter, anyone, can be mesmerized or blinded by romantic tragedy. I remember one day - the day I had to leave after a month here alone. I had just hadlunch in some small trattoria on the remotest part of the " .
+
+ex:watermark_chapter_39_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_39 ;
+    rdf:value "At night, there is not much to do here. Opera and church recitals are options, of course, but they require some initiative and arrangement: tickets and schedules and so forth. I am not good at that; it's rather like fixing a three-course meal all for yourself - perhaps even lonelier. Besides, my luck is such that whenever I considered an evening at La Fenice, they would be having a week-long run of Tchaikovsky or Wagner - equals, as far as my allergy is concerned. Never once Donizetti or Mozart! That leaves reading and strolling dully along, which is about the same, since at night these narrow stony gennels are like passages between the bookshelves of some immense, forgotten library, and equally quiet. All the \"books\" are shut tight, and you guess what they are about only by the names on their spines, under the doorbell. Oh, there you can find your Donizettis and Rossinis, your Lullys and Frescobaldis! Maybe even a Mozart, maybe even a Haydn. Or else these streets are like wardrobe racks: all the clothes are of dark, peeling fabric, but the lining is ruby and shimmering gold. Goethe called this place the \"republic of beavers,\" but perhaps Montesquieu with his resolute \"" .
+
+ex:watermark_chapter_39_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_39 ;
+    rdf:value "At a distance - across a canal - you can hardly tell the guests from their hostess. With all due respect to the best available creed, I must say I don't think this place has evolved from the famous chordate only, triumphant or not. I suspect and submit that, in the first place, it evolved from the very element that gave that chordate life and shelter and which, for me at least, is synonymous with time. The element comes in many shapes and hues, with many different properties apart from those of Aphrodite and the Redeemer: lull, storm, crest, wave, froth, ripple, etc., not to mention the marine organisms. In my mind, this city limns all discernible patterns of the element and its contents. Splashing, glittering, glowing, glinting, the element has been casting itself upward for so long that it is not surprising that some of these aspects eventually acquired mass, flesh, and grew solid. Why it should have happened here, I have no idea. Presumably because the element here had heard Italian." .
+
+ex:watermark_chapter_3_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_3 ;
+    rdf:value "A smell is, after all, a violation ofoxygen balance, an invasion into it of other elements methane? carbon? sulphur? nitrogen? Depending on that invasion's intensity, you get a scent, a smell, a stench. It is a molecular affair, and happiness, I suppose, is the moment of spotting the elements of your own composition being free. There were quite a number of them out there, in a state of total freedom, and I felt I'd stepped into my own self-portrait in the cold air." .
+
+ex:watermark_chapter_3_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_3 ;
+    rdf:value "The backdrop was all in dark silhouettes of church cupolas and rooftops; a bridge arching over a body of water's black curve, both ends of which were clipped off by infinity. At night, infinity in foreign realms arrives with the last lamppost, and here it was twenty meters away. It was very quiet. A few dimly lit boats now and then prowled about, disturbing with their propellers the reflection of a large neon Cinzano trying to settle on the black oilcloth ofthe water's surface. Long before it succeeded, the silence would be restored." .
+
+ex:watermark_chapter_40_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_40 ;
+    rdf:value "The eye is the most autonomous of our organs. It is so because the objects of its attention are inevitably situated on the outside. Except in a mirror, the eye never sees itself. It is the last to shut down when the body is falling asleep. It stays open when the body is stricken with paralysis or dead. The eye keeps registering reality even when there is no apparent reason for doing this, and under all circumstances. The question is: Why? And the answer is: Because the environment is hostile. Eyesight is the instrument of adjustment to an environment which remains hostile no matter how well you have adjusted to it. The hostility of the environment grows proportionately to the length of your presence in it, and I am speaking not of old age only. In short, the eye is looking for safety. That explains the eye's predilection for art in general and Venetian art in particular. That explains the eye's appetite for beauty, as well as beauty's own existence. For beauty is solace, since beauty is safe. It doesn't threaten you with murder or make you sick. A statue of Apollo doesn't bite, nor will Carpaccio's poodle. When the eye fails to find beauty - alias solace - it commands the body to create it, or, failing that, adjusts itself to perceive virtue in ugliness. In the first instance, it relies on human genius; in the second, it draws on one's reservoir of humility. The latter is in greater supply, and like every majority tends to make laws. Let's have an illustration; let's take a young maiden. At a certain age one eyes passing maidens without applied interest, without aspiring to mount them. Like a TV set left switched on in an abandoned apartment, the eye keeps sending in images of all these 5'8'' miracles, complete with light chestnut hair, Perugino ovals, gazelle eyes, nurse-like bosoms, wasp waists, dark-green velvet dresses, and razor-sharp tendons. An eye may zero in on them in a church at someone's wedding or, worse still, in a bookstore's poetry section. Reasonably farsighted or resorting to the counsel of the ear, the eye may learn their identities (which come with names as breathtaking as, say, Arabella Ferri) and, alas, their dishearteningly firm romantic affiliations. Regardless of such data's uselessness, the eye keeps collecting it. In fact, the more useless the data, the sharper the focus. The question is why, and the answer is that beauty is always external; also, that it is the exception to the rule. That's what - its location and its singularity - sends the eye oscillating wildly or - in militant humility's parlance - roving. For beauty is where the eye rests. Aesthetic sense is the twin of one's instinct for self-preservation and is more reliable than ethics. Aesthetics' main tool, the eye, is absolutely autonomous. In its autonomy, it is inferior only to a tear." .
+
+ex:watermark_chapter_41_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_41 ;
+    rdf:value "A tear can be shed in this place on several occasions. Assuming that beauty is the distribution of light in the fashion most congenial to one's retina, a tear is an acknowledgment of the retina's, as well as the tear's, failure to retain beauty. On the whole, love comes with the speed of light; separation, with that of sound. It is the deterioration of the greater speed to the lesser that moistens one's eye. Because one is finite, a departure from this place always feels final; leaving it behind is leaving it forever. For leaving is a banishment of the eye to the provinces of the other senses; at best, to the crevices and crevasses of the brain. For the eye identifies itself not with the body it belongs to but with the object of its attention. And to the eye, for purely optical reasons, departure is not the body leaving the city but the city abandoning the pupil. Likewise, disappearance of the beloved, especially a gradual one, causes grief no matter who, and for what peripatetic reason, is actually in motion. As the world goes, this city is the eye's beloved. After it, everything is a letdown. A tear is the anticipation of the eye's future." .
+
+ex:watermark_chapter_42_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_42 ;
+    rdf:value "To be sure, everybody has designs on her, on this city. Politicians and big businesses especially, for nothing has a greater future than money. It is so much so that money feels synonymous with the future and tries to order it. Hence the wealth of frothy outpourings about revamping the city, about turning the entire province of Veneto into a gateway to Central Europe, about boosting the region's industry, expanding the harbor complex at " .
+
+ex:watermark_chapter_42_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_42 ;
+    rdf:value "Yet while these characters are far more dangerous - indeed more harmful - than the Turks, the Austrians, and Napoleon all lumped together, since money has more battalions than generals, in the seventeen years that I've frequented this city very little has changed here. What saves " .
+
+ex:watermark_chapter_42_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_42 ;
+    rdf:value "Farsightedness here, however, would be counterproductive. In a place this size, twenty or thirty people out of work are the city council's instant headache, which, apart from islands' innate mistrust of the mainland, makes for a poor reception of the latter's blueprints, however breathtaking. Appealing as they may be elsewhere, promises of universal employment and growth make little sense in a city barely eight miles in circumference, which even at the apogee of its maritime fortunes never exceeded 200,000 souls. Such prospects may thrill a shopkeeper or perhaps a doctor; a mortician, though, would object, since the local cemeteries are jammed as it is and the dead now should be buried on the mainland. In the final analysis, that's what the mainland is good for." .
+
+ex:watermark_chapter_42_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_42 ;
+    rdf:value "Still, had the mortician and the doctor belonged to different political parties, that would be fine, some progress could be made. In this city, they often belong to the same, and things get stalled rather early, even if the party is the PCI. In short, underneath all these squabbles, unwitting ones or otherwise, lies the simple truth that islands don't grow. That's what money, a.k.a. the future, a.k.a. voluble politicos and fat cats, can't take, fails to grasp. What's worse, it feels defied by this place, since beauty, a " .
+
+ex:watermark_chapter_43_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_43 ;
+    rdf:value "I think it was Hazlitt who said that the only thing that could beat this city of water would be a city built in the air. That was a Calvinoesque idea, and who knows, as an upshot of space travel, that may yet come to pass. As it is, apart from the moon landing, this century may be best remembered by leaving this place intact, by just letting it be. I, for one, would advise even against gentle interference. Of course, film festivals and book fairs are in tune with the flickering of the canals' surface, with their curlicue, sirocco-perused scribblings. And of course, turning this place into a capital of scientific research would be a palatable option, especially taking into account the likely advantages of the local phosphorus-rich diet for any mental endeavor. The same bait could be used for moving the EEC headquarters here from Brussels and the European parliament from Strasbourg. And of course, a better solution would be to give this city and some of its environs the status of a national park. Yet I would argue that the idea of turning " .
+
+ex:watermark_chapter_44_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_44 ;
+    rdf:value "Seasons are metaphors for available continents, and winter is always somewhat antarctic, even here. The city doesn't rely on coal as much as it used to; now it's gas. The magnificent, trumpetlike chimneys resembling medieval turrets in the backdrop of every Madonna and Crucifixion idle and gradually crumble away from the local skyline. As a result you shiver and go to bed with your woolen socks on, because radiators keep their erratic cycles here even in hotels. Only alcohol can absorb the polar lightning shooting through your body as you set your foot on the marble floor, slippers or no slippers, shoes or no shoes. If you work in the evening you burn parthenons of candles - not for ambience or better light, but for their illusory warmth; or else you move to the kitchen, light the gas stove, and shut the door. Everything emanates cold, the walls especially. Windows you don't mind because you know what to expect from them. In fact, they only pass the cold through, whereas walls store it. I remember once spending the month of January in an apartment on the fifth floor of a house near the church of Fava. The place belonged to a descendant of none other than Ugo Foscolo. The owner was a forest engineer or some such thing, and was, naturally, away on business. The apartment wasn't that big: two rooms, sparsely furnished. The ceiling, though, was extraordinarily high and the windows were correspondingly tall. There were six or seven of them, as the apartment was a corner one. In the middle of the second week the heating went off. This time I was not alone, and my comrade-in-arms and I drew lots as to who would have to sleep by the wall. \"Why should I always go to the wall?\" she'd ask beforehand. \"Because I'm a victim?\" And her mustard-and-honey eyes would darken with incredulity upon losing. She would bundle up for the night - pink woolen jersey, scarf, stockings, long socks - and, having counted " .
+
+ex:watermark_chapter_45_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_45 ;
+    rdf:value "\"" .
+
+ex:watermark_chapter_46_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_46 ;
+    rdf:value "Should the world be designated a genre, its main stylistic device would no doubt be water. If that doesn't happen, it is either because the Almighty, too, doesn't seem to have much in the way of alternatives, or because a thought itself possesses a water pattern. So does one's handwriting; so do one's emotions; so does blood. Reflection is the property of liquid substances, and even on a rainy day one can always prove the superiority of one's fidelity to that of glass by positioning oneself behind it. This city takes one's breath away in every weather, the variety of which, at any rate, is somewhat limited. And if we are indeed partly synonymous with water, which is fully synonymous with time, then one's sentiment toward this place improves the future, contributes to that " .
+
+ex:watermark_chapter_47_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_47 ;
+    rdf:value "The one thing the locals never do is ride " .
+
+ex:watermark_chapter_47_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_47 ;
+    rdf:value "The night was cold, moonlit, and quiet. There were five of us in the gondola, including its owner, a local engineer who, together with his girlfriend, did all the paddling. We moseyed and zigzagged like an eel through the silent town hanging over our heads, cavernous and empty,resembling at this late hour a vast, largely rectangular coral reef or a succession of uninhabited grottoes. It was a peculiar sensation: to find yourself moving within what you're used to glancing across - canals; it felt like acquiring an extra dimension. Presently we glided into the " .
+
+ex:watermark_chapter_48_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_48 ;
+    rdf:value "We disembarked near the concrete crate of the " .
+
+ex:watermark_chapter_49_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_49 ;
+    rdf:value "Equidistant from our respective abodes, this was as good a place to disembark as any. It takes about an hour to cross this city by foot in any direction. Provided, of course, that you know your way, which by the time I stepped out of that " .
+
+ex:watermark_chapter_4_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_4 ;
+    rdf:value "It all felt like arriving in the provinces, in some unknown, insignificant spot possibly one's own birthplace after years of absence. In no small degree did this sensation owe to my own anonymity, to the incongruity of a lone figure on the steps of the " .
+
+ex:watermark_chapter_50_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_50 ;
+    rdf:value "Let me reiterate: Water equals time and provides beauty with its double. Part water, we serve beauty in the same fashion. By rubbing water, this city improves time's looks, beautifies the future. That's what the role of this city in the universe is. Because the city is static while we are moving. The tear is proof of that. Because we go and beauty stays. Because we are headed for the future, while beauty is the eternal present. The tear is an attempt to remain, to stay behind, to merge with the city. But that's against the rules. The tear is a throwback, a tribute of the future to the past. Or else it is the result of subtracting the greater from the lesser: beauty from man. The same goes for love, because one's love, too, is greater than oneself." .
+
+ex:watermark_chapter_5_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_5 ;
+    rdf:value "I had seen it for the first time several years before, in that same previous incarnation: in " .
+
+ex:watermark_chapter_5_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_5 ;
+    rdf:value "So we gave short shrift to her membership in the Italian CP and her attendant sentiment toward our avant-garde simpletons of the thirties, attributing both to Western frivolity. Had she been even an avowed Fascist, i think we would have lusted after her no less. She was positively stunning, and when subsequently she'd fallen for the worst possible dimwit on the periphery of our circle, some highly paiddolt of Armenian extraction, the common response was amazement and anger rather than jealousy or manly regret. Of course, come to think of it, one shouldn't get angry over a piece of fine lace soiled by some strong ethnic juices. Yet \\ve did. For it was more than a letdown: it was a betrayal of the fabric." .
+
+ex:watermark_chapter_5_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_5 ;
+    rdf:value "In those days we associated style with substance, beauty with intelligence. After all, we were a bookish crowd, and at a certain age, if you believe in literature, you think everyone shares or should share your conviction and taste. So if one looks elegant, one is one of us. Innocent of the world outside, of the West in particular, we didn't know yet that style could be purchased wholesale, that beauty could be just a commodity. So we regarded the sight as the physical extension and embodiment of our ideals and principles, and what she wore, transparent things included, belonged to civilization." .
+
+ex:watermark_chapter_5_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_5 ;
+    rdf:value "So strong was that association, and so pretty was the sight, that even now, years later, belonging to a different age and, as it were, to a different country, I began to slip unwittingly into the old mode. The first thing I asked her as I stood pressed to her nutria coat on the deck of the overcrowded " .
+
+ex:watermark_chapter_6_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_6 ;
+    rdf:value "The boat's slow progress through the night was like the passage of a coherent thought through the subconscious. On both sides, knee-deep in pitch-black water, stood the enormous carved chests of dark palazzi filled with unfathomable treasures most likely gold, judging from the low-intensity yellow electric glow emerging now and then from cracks in the shutters. The overall feeling was mythological, cyclopic, to be precise: I'd entered that infinity I beheld on the steps of the " .
+
+ex:watermark_chapter_6_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_6 ;
+    rdf:value "The nutria-clad sight next to me began explaining in a somewhat hushed voice that she was taking me to my hotel, where she had reserved a room, that perhaps we'd meet tomorrow or the day after, that she'd like to introduce me to her husband and her sister. I liked the hush in her voice, though it fit the night more than the message, and replied in the same conspiratorial tones that it's always a pleasure to meet potential relatives. That was a bit strong for the moment, but she laughed, in the same muffled way, putting a hand in abrown leather glove to her lips. The passengers around us, mostly dark-haired, whose number was responsible for our proximity, were immobile and equally subdued in their occasional remarks to one another, as though the content of their exchanges was also of an intimate nature. Then the sky was momentarily obscured by the huge marble parenthesis of a bridge, and suddenly everything was flooded with light. \"" .
+
+ex:watermark_chapter_7_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_7 ;
+    rdf:value "There is something primordial about traveling on water, even for short distances. You are informed that you are not supposed to be there not so  much by your eyes, ears, nose, palate, or palm as by your feet, which feel odd acting as an organ of sense. Water unsettles the principle of horizontality, especially at night, when its surface resembles pavement. No matter how solid its substitute the deck under your feet, on water you are somewhat more alert than ashore, your faculties are more poised. On water, for instance, you never get absentminded the way you do in the street: your legs keep you and your wits in constant check, as if you were some kind of compass. Well, perhaps what sharpens your wits while traveling on water is indeed a distant, roundabout echo of the good old chor- dates. At any rate, your sense of the other on water gets keener, as though heightened by a common as well as a mutual danger. The loss of direction is a psychological category as much as it is a navigational one. Be that as it may, for the next ten minutes, although we were moving in the same direction, I saw the arrow of the only person I knew in that city and mine diverge by at least 45 degrees. Most likely because this part of the " .
+
+ex:watermark_chapter_7_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_7 ;
+    rdf:value "We disembarked at the " .
+
+ex:watermark_chapter_8_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_8 ;
+    rdf:value "That's how I found myself for the first time in this city. As it turned out, there was nothing particularly auspicious or ominous about this arrival of mine. If that night portended anything at all, it was that I'd never possess this city; but then I never had any such aspiration. As a beginning, I think this episodewill do, although as far as the-only-person-I-knew-in-this-city was concerned, it rather marked the end of our acquaintance. I saw her two or three times subsequently during that stay in " .
+
+ex:watermark_chapter_8_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_8 ;
+    rdf:value "Fastidiousness was one part of it; the other part was that when, somewhat later, I called the-only-person-I-knew-in-that-city from the depths of my labyrinth one blue evening, the architect, perhaps sensing in my broken Italian something untoward, cut the thread. So now it really was up to our red Armenian brethren." .
+
+ex:watermark_chapter_9_para_1 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_9 ;
+    rdf:value "Subsequently, I was told, she divorced the man and married a U.S. Air Force pilot, who turned out to be the nephew of the mayor of a small town in the great " .
+
+ex:watermark_chapter_9_para_2 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_9 ;
+    rdf:value "With two or three exceptions, due to heart attacks and related emergencies, niine or someone else's, every Christmas or shortly before I'd emerge from a train/plane/boat/bus and drag my bags heavy with books and typewriters to the threshold of this or that hotel, of this or that apartment. The latter would normally be courtesy of the one or two friends I'd managed to develop here in the wake ofthe sight's dimming. Later, I'll try to account for my timing (though such a project is tautological to the point of reversal). For the moment, I'd like to assert that, Northerner though I am, my notion of Eden hinges on neither weather nor temperature. For that matter, I'd just as soon discard its dwellers, and eternity as well. At the risk of being charged with depravity, I confess that this notion is purely visual, has more to do with Claude than the creed, and exists only in approximations. As these go, this city is the closest. Since I'm not entitled to make a true comparison, I can permit myself to be restrictive." .
+
+ex:watermark_chapter_9_para_3 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_9 ;
+    rdf:value "I say this here and now to save the reader disillusionment. I am not a moral man (though I try to keep my conscience in balance) or a sage; I am neither an aesthete nor a philosopher. I am but a nervous man, by circumstance and by my own deeds; but I am observant. As my beloved Akutagawa Ryunosuke once said, I have no principles; all I've got is nerves. What follows, therefore, has to do with the eye rather than with convictions, including those as to how to run a narrative. One's eye precedes one's pen, and I resolve not to let my pen lie about its position. Having risked the charge of depravity, I won't wince at that of superficiality either. Surfaces which is what the eye registers first are often more telling than their contents, which are provisional by definition, except, of course, in the afterlife. Scanning this city's face for seventeen winters, I should by now be capable of pulling a credible Poussin- like job: of painting this place's likeness, if not at four seasons, then at four times of day." .
+
+ex:watermark_chapter_9_para_4 a ex:Paragraph ;
+    dcterms:isPartOf ex:watermark_chapter_9 ;
+    rdf:value "That's niy ambition. If I get sidetracked, it is because being sidetracked is literally a matter of course here and echoes water. What lies ahead, in other words, may amount not to a story but to the flow of muddy water \"at the wrong time of year.\" At times it looks blue, at times gray or brown; invariably it is cold and not potable. The reason I am engaged in straining it is that it contains reflections, among them my own." .
+
+ex:watermark_chapter_12 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_14 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_17 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_19 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_20 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_23 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_25 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_27 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_28 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_29 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_30 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_31 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_32 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_33 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_34 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_36 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_38 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_4 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_40 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_41 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_43 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_44 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_45 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_46 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_48 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_49 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_50 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_10 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_16 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_18 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_2 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_22 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_24 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_3 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_35 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_39 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_47 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_6 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_7 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_8 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_11 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_37 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_1 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_15 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_26 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_42 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_5 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_9 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_13 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:watermark_chapter_21 a ex:Chapter ;
+    dcterms:isPartOf ex:Watermark .
+
+ex:Watermark dcterms:creator "Joseph Brodsky" ;
+    dcterms:date "May 2025"^^xsd:date ;
+    dcterms:source "https://shakko.wordpress.com/2014/07/04/joseph-brodsky-watermark/" ;
+    dcterms:title "Watermark" .
+
