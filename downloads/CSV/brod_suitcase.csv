@@ -1,0 +1,10 @@
+subject;predicate;object
+Suitcase;dc:title;Suitcase
+Suitcase;rdf:type;Personal artifact
+Suitcase;schema:owner;Joseph Brodsky
+Suitcase;schema:dateCreated;1940–1950
+Suitcase;schema:locationCreated;Saint Petersburg
+Suitcase;schema:location;Anna Akhmatova Museum
+Suitcase;schema:material;"Leather; wood; cardboard; fabric; metal"
+Suitcase;dc:description;A suitcase that belonged to Iosif Brodsky. Recovered and stored at the Anna Akhmatova Museum.
+Suitcase;schema:relatedTo;Memorial_plaque

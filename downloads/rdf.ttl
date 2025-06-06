@@ -1,107 +1,117 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix schema: <http://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix lido: <http://www.lido-schema.org/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://brodskiy-lod.github.io/Brodsky_Tombstone>
-    dc:title "Joseph Brodsky’s tombstone"^^xsd:string ;
-    dc:creator "Vladimir Radunsky"^^xsd:string ;
-    dc:date "1997"^^xsd:gYear ;
-    dc:description "A tombstone created by Vladimir Radunsky in memory of Joseph Brodsky."^^xsd:string ;
-    dc:subject "Joseph Brodsky"^^xsd:string ;
-    rdf:type "Memorial"^^xsd:string ;
-    schema:location "Venice"^^xsd:string ;
-    schema:relatedTo "Memorial_plaque", "Photo_Brodsky_Venice" ;
-    lido:inscriptionTranscription "Iosif Brodsky 24.V.1940–28.1.1996"^^xsd:string .
+<http://brodskiy-lod.github.io/Pensione_Academia> a wd:Q41176 ;
+    dc:description "The hotel where Brodsky stayed during his visits to Venice." ;
+    dc:title "Pensione Academia" ;
+    schema:dateCreated "17th century" ;
+    schema:function "Hotel" ;
+    schema:location wd:Q641 ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Watermark> .
 
-<http://brodskiy-lod.github.io/Lagoon>
-    dc:title "Lagoon"^^xsd:string ;
-    dc:creator "Joseph Brodsky"^^xsd:string ;
+<http://brodskiy-lod.github.io/Photo_Brodsky_Naiman> a wd:Q478798 ;
+    dc:date "1991"^^xsd:gYear ;
+    dc:description "The photograph shows Joseph Brodsky with his friend, writer Anatoly Naiman, in Venice in 1991." ;
+    dc:format wd:Q125191 ;
+    dc:subject wd:Q4275572,
+        wd:Q862 ;
+    dc:title "Photo of Brodsky and Anatoly Naiman in Venice" ;
+    schema:locationCreated wd:Q641 .
+
+<http://brodskiy-lod.github.io/Suitcase> a schema:CreativeWork ;
+    dc:description "A suitcase that belonged to Iosif Brodsky. Recovered and stored at the Anna Akhmatova Museum." ;
+    dc:title "Suitcase" ;
+    schema:dateCreated "1940-1950" ;
+    schema:location "Anna Akhmatova Museum" ;
+    schema:locationCreated wd:Q656 ;
+    schema:material "Leather; wood; cardboard; fabric; metal" ;
+    schema:owner wd:Q862 ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Memorial_plaque> .
+
+<http://brodskiy-lod.github.io/Walks_with_Brodsky> a wd:Q93204 ;
+    dc:creator "Carmen Video (DVD); TV Russia (TV)" ;
+    dc:description "A television documentary about the poet Joseph Brodsky." ;
+    dc:language wd:Q7737 ;
+    dc:subject wd:Q862 ;
+    dc:title "Walks with Brodsky" ;
+    schema:about wd:Q862 ;
+    schema:datePublished "1993" ;
+    schema:duration "2:42:47" ;
+    schema:hasPart "Walks with Brodsky II. Filming History" ;
+    schema:locationCreated wd:Q641 .
+
+<http://brodskiy-lod.github.io/Lagoon> a schema:CreativeWork ;
+    dc:creator wd:Q862 ;
     dc:date "1973"^^xsd:gYear ;
-    dc:description "Brodsky's first work dedicated to Venice"^^xsd:string ;
-    dc:language "English"^^xsd:string ;
-    rdf:type "Literary text"^^xsd:string ;
-    schema:genre "Poem"^^xsd:string ;
-    schema:locationCreated "Venice"^^xsd:string ;
-    schema:relatedTo "Memorial_plaque", "Watermark" .
+    dc:description "Brodsky's first work dedicated to Venice" ;
+    dc:language wd:Q1860 ;
+    dc:title "Lagoon" ;
+    schema:about wd:Q641 ;
+    schema:comment "The original is written in Russian" ;
+    schema:genre wd:Q5185279 ;
+    schema:locationCreated wd:Q641 ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Memorial_plaque>,
+        <http://brodskiy-lod.github.io/Watermark> .
 
-<http://brodskiy-lod.github.io/Photo_Brodsky_Venice>
-    dc:title "Photo of Brodsky in Venice"^^xsd:string ;
-    dc:creator "Veronica Schiltz"^^xsd:string ;
+<http://brodskiy-lod.github.io/Photo_Brodsky_Venice> a wd:Q478798 ;
+    dc:creator "Veronica Schiltz" ;
     dc:date "1974"^^xsd:gYear ;
-    dc:format "Photograph"^^xsd:string ;
-    dc:description "One of a series of photographs taken during Brodsky's time in Venice."^^xsd:string ;
-    dc:subject "Joseph Brodsky"^^xsd:string ;
-    rdf:type "Image"^^xsd:string ;
-    schema:locationCreated "Venice"^^xsd:string ;
-    schema:relatedTo "Brodsky_Tombstone" .
+    dc:description "One of a series of photographs taken during Brodsky's time in Venice." ;
+    dc:format wd:Q125191 ;
+    dc:subject wd:Q862 ;
+    dc:title "Photo of Brodsky in Venice" ;
+    schema:locationCreated wd:Q641 ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Brodsky_Tombstone> .
 
-<http://brodskiy-lod.github.io/Memorial_plaque>
-    dc:title "Memorial Plaque for Joseph Brodsky"^^xsd:string ;
-    dc:creator "City of Venice"^^xsd:string ;
-    dc:date "2003"^^xsd:gYear ;
-    dc:description "Plaque placed at Brodsky’s usual lodging in Venice."^^xsd:string ;
-    dc:subject "Joseph Brodsky"^^xsd:string ;
-    dc:language "Italian"^^xsd:string ;
-    lido:inscriptionTranscription "A Joseph Brodsky, poeta e cittadino veneziano"^^xsd:string ;
-    schema:location "Pensione Academia, Venice"^^xsd:string ;
-    rdf:type "Plaque"^^xsd:string ;
-    schema:relatedTo "Brodsky_Tombstone", "Lagoon" .
+<http://brodskiy-lod.github.io/Venezian_Stanzas> a schema:CreativeWork ;
+    dc:creator wd:Q862 ;
+    dc:date "1980"^^xsd:gYear ;
+    dc:language wd:Q1860 ;
+    dc:subject wd:Q641 ;
+    dc:title "Venezian Stanzas" ;
+    schema:genre wd:Q5185279 ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Brodsky_Tombstone>,
+        <http://brodskiy-lod.github.io/Watermark> .
 
-<http://brodskiy-lod.github.io/Suitcase>
-    dc:title "Brodsky's suitcase"^^xsd:string ;
-    dc:creator "Joseph Brodsky"^^xsd:string ;
-    dc:date "1972"^^xsd:gYear ;
-    dc:description "Suitcase Brodsky took into exile from USSR."^^xsd:string ;
-    rdf:type "Personal Object"^^xsd:string ;
-    dc:subject "Exile"^^xsd:string ;
-    schema:location "Venice"^^xsd:string ;
-    schema:relatedTo "brod_suitcase_poem" .
+<http://brodskiy-lod.github.io/Brodsky_Tombstone> a wd:Q4364339 ;
+    dc:creator wd:Q55949556 ;
+    dc:date "1997"^^xsd:gYear ;
+    dc:description "A tombstone created by Vladimir Radunsky in memory of Joseph Brodsky." ;
+    dc:subject wd:Q862 ;
+    dc:title "Joseph Brodsky’s tombstone" ;
+    schema:location wd:Q641 ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Memorial_plaque>,
+        <http://brodskiy-lod.github.io/Photo_Brodsky_Venice> ;
+    lido:inscriptionTranscription "Иосиф Бродский 24.V.1940–28.1.1996 Joseph Brodsky Letum non omnia finit" .
 
-<http://brodskiy-lod.github.io/brod_suitcase_poem>
-    dc:title "Poem on Suitcase"^^xsd:string ;
-    dc:creator "Joseph Brodsky"^^xsd:string ;
-    dc:description "Text inspired by the suitcase Brodsky carried into exile."^^xsd:string ;
-    rdf:type "Poem"^^xsd:string ;
-    dc:language "Russian"^^xsd:string ;
-    schema:relatedTo "Suitcase" .
-
-<http://brodskiy-lod.github.io/Academia>
-    dc:title "Pensione Academia"^^xsd:string ;
-    dc:creator "Unknown architect"^^xsd:string ;
-    dc:date "19th century"^^xsd:string ;
-    dc:description "The guesthouse where Brodsky stayed in Venice."^^xsd:string ;
-    rdf:type "Building"^^xsd:string ;
-    schema:location "Dorsoduro, Venice"^^xsd:string ;
-    schema:relatedTo "Memorial_plaque" .
-
-<http://brodskiy-lod.github.io/Venezian_Stanzas>
-    dc:title "Venetian Stanzas"^^xsd:string ;
-    dc:creator "Joseph Brodsky"^^xsd:string ;
-    dc:date "1989"^^xsd:gYear ;
-    dc:description "Poem reflecting on Venice and exile."^^xsd:string ;
-    dc:language "Russian"^^xsd:string ;
-    rdf:type "Literary text"^^xsd:string ;
-    schema:genre "Poem"^^xsd:string ;
-    schema:relatedTo "Watermark", "Lagoon" .
-
-<http://brodskiy-lod.github.io/Watermark>
-    dc:title "Watermark"^^xsd:string ;
-    dc:creator "Joseph Brodsky"^^xsd:string ;
-    dc:date "1992"^^xsd:gYear ;
-    dc:description "A memoir about Venice in winter."^^xsd:string ;
-    dc:language "English"^^xsd:string ;
-    rdf:type "Memoir"^^xsd:string ;
-    schema:locationCreated "Venice"^^xsd:string ;
-    schema:relatedTo "Venetian_Stanzas", "Lagoon" .
-
-<http://brodskiy-lod.github.io/documentary>
-    dc:title "Room and a Half: Brodsky in Venice"^^xsd:string ;
-    dc:creator "Andrey Khrzhanovsky"^^xsd:string ;
+<http://brodskiy-lod.github.io/Memorial_plaque> a wd:Q4364339 ;
+    dc:creator "Georgi Frangulyan" ;
     dc:date "2009"^^xsd:gYear ;
-    dc:description "Documentary exploring Brodsky’s life and relationship with Venice."^^xsd:string ;
-    rdf:type "Film"^^xsd:string ;
-    dc:language "Russian"^^xsd:string ;
-    schema:genre "Documentary"^^xsd:string ;
-    schema:locationCreated "Venice"^^xsd:string ;
-    schema:relatedTo "Watermark", "Photo_Brodsky_Venice" .
+    dc:description "A marble memorial plaque dedicated to Joseph Brodsky, installed in Venice in 2009. It is located on the site of the non-existent Fondamenta degli Incurabili, celebrated in the essay 'Watermark'." ;
+    dc:language wd:Q652,
+        wd:Q7737 ;
+    dc:subject wd:Q862 ;
+    dc:title "Memorial plaque" ;
+    schema:location wd:Q641 ;
+    schema:material "Marble" ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Brodsky_Tombstone> ;
+    lido:inscriptionTranscription "Brodskij Iosif (1940–1996) grande poeta russo, premio Nobel, amò e cantò questo luogo. Иосиф Бродский, великий русский поэт, лауреат Нобелевской премии, воспел “Набережную неисцелимых”." .
+
+<http://brodskiy-lod.github.io/Watermark> a schema:CreativeWork ;
+    dc:creator wd:Q862 ;
+    dc:date "1989"^^xsd:gYear ;
+    dc:description "Lyrical essay by Joseph Brodsky that captures the spirit of Venice." ;
+    dc:language wd:Q1860 ;
+    dc:publisher "The Noonday Press; Farrar, Straus & Giroux" ;
+    dc:subject wd:Q641 ;
+    dc:title "Watermark" ;
+    ns1:identifier "ISBN 978-03-7452-382-4" ;
+    schema:genre wd:Q35760 ;
+    schema:locationCreated wd:Q60 ;
+    schema:relatedTo <http://brodskiy-lod.github.io/Lagoon>,
+        <http://brodskiy-lod.github.io/Venezian_Stanzas> .
+

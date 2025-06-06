@@ -317,7 +317,7 @@
         <h3>💡 RDF</h3>
         <p>RDF dataset generated from CSV and TEI/XML sources using Python scripts, based on a custom ontology. Links people, places, concepts, and items.</p>
         <div class="button-group">
-          <a href="scripts/tei_to_rdf.py" class="button" target="_blank">View TEI → RDF Script</a>
+          <a href="python.html" class="button" target="_blank">View TEI → RDF Script</a>
           <a href="rdf.html" class="button"  target="_blank">RDF Dataset</a>
         </div>
       </div>
@@ -328,22 +328,20 @@
         <p>Sample encodings of Brodsky’s works in TEI XML format, enriched with metadata and structure.</p>
         <div class="button-group">
           <a href="tei/lagoon.xml" class="button" target="_blank">View Lagoon (XML)</a>
-          <a href="tei/watermark.xml" class="button" target="_blank">View Watermark (XML)</a>
+          <a href="tei/watermark.xml" class="button" target="_blank">🔍 View Watermark (XML)</a>
         </div>
       </div>
 
-      <!-- XML → HTML -->
-      <div class="knowledge-card">
-        <h3>🛠 XML to HTML</h3>
-        <p>Transformations of TEI XML to HTML using Python or XSLT for publication and web presentation.</p>
-        <div class="button-group">
-          <a href="scripts/tei_to_html.py" class="button" target="_blank">View Python Script</a>
-          <a href="scripts/tei_to_html.xslt" class="button" target="_blank">View XSLT Stylesheet</a>
-        </div>
-      </div>
-    </div>
+   <!-- XML → HTML -->
+<div class="knowledge-card">
+  <h3>🛠 XML to HTML</h3>
+  <p>Transformation of TEI-encoded XML using an XSLT stylesheet to generate a styled HTML page for web presentation.</p>
+  <div class="button-group">
+    <a href="xslt_watermark.xml" class="button" target="_blank">⚙ Watermark XSLT Stylesheet</a>
+    <a href="watermark.html" class="button" target="_blank">🌐 Resulting Watermark HTML</a>
   </div>
-</section>
+</div>
+
 
   <script>
     const observer = new IntersectionObserver((entries) => {

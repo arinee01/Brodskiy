@@ -15,15 +15,18 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
+                <p>Digital edition of Joseph Brodsky's poem "Lagoon"</p>
             </publicationStmt>
             <sourceDesc>
+                <p>https://theeducatedprocrastinator.wordpress.com/2014/04/16/poem-a-day-2014-joseph-brodsky-lagoon-16/</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
+                <p>This file is part of a project dedicated to the Russian-American poet Joseph Brodsky and Venice. Completed as part of a final project for course "Information Science and Cultural Heritage", Digital Humanities and Digital Knowledge, University of Bologna.</p>
             </projectDesc>
             <editorialDecl>
-                <interpretation></interpretation>
+                <interpretation><p>Stanzas and lines are marked in the text.</p></interpretation>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
@@ -82,7 +85,7 @@
             <lg type="stanza" n="6">
                 <head>VI</head>
                 <l>A Christmas without snow, tinsel, or tree,</l>
-                <l>at the edge of a map- and land-corseted sea;</l>
+                <l>at the edge of a map - and land-corseted sea;</l>
                 <l>having scuttled and sunk its scallop shell,</l>
                 <l>concealing its face while flaunting its backside,</l>
                 <l>Time rises from the goddess’s frothy tide,</l>
@@ -171,7 +174,7 @@
         </body>
         <back>
             <div type="note">
-                <date>1973</date>
+                <dateline><date>1973</date></dateline>
             </div>
         </back>
     </text>

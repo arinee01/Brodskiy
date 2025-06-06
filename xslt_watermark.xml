@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="tei">
+
+  <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>
+          <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+        </title>
+      </head>
+      <body>
+        <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
+        <h2><xsl:value-of select="//tei:titleStmt/tei:author"/></h2>
+
+        <xsl:apply-templates select="//tei:text"/>
+      </body>
+    </html>
+  </xsl:template>
+
+  <xsl:template match="tei:title">
+    <xsl:value-of select="."/>
+  </xsl:template>
+
+  <xsl:template match="tei:text">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="tei:div[@type='chapter']">
+    <div class="chapter">
+        <h3><xsl:value-of select="@n"/></h3>
+        <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tei:p">
+    <p>
+      <xsl:apply-templates/>
+    </p>
+  </xsl:template>
+
+    <xsl:template match="tei:dateline">
+    <p>
+      <xsl:apply-templates/>
+    </p>
+  </xsl:template>
+
+  <xsl:template match="tei:foreign">
+    <u>
+        <xsl:apply-templates/>
+    </u>
+</xsl:template>
+
+<xsl:template match="tei:quote">
+  <i>
+    <xsl:apply-templates/>
+  </i>
+</xsl:template>
+
+<xsl:template match="tei:placeName[@ref]">
+  <a href="{@ref}">
+    <xsl:apply-templates/>
+  </a>
+</xsl:template>
+
+  <xsl:template match="tei:*">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+</xsl:stylesheet>
