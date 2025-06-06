@@ -15,18 +15,15 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <p><!--Описание--></p>
             </publicationStmt>
             <sourceDesc>
-                <p> <!--Источник--> </p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p><!--Цель диджитал-проекта--></p>
             </projectDesc>
             <editorialDecl>
-                <interpretation><!--Какие аналитические features были добавлены--></interpretation>
+                <interpretation></interpretation>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>

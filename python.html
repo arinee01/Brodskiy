@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Python Code – Brodsky RDF</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #fdf6e3, #fbeac2, #f2dcc0);
+      }
+      header {
+        background: #5e4b2c;
+        color: #fff;
+        padding: 1.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      nav a {
+        margin-left: 2rem;
+        font-size: 0.95rem;
+      }
+      .rdf-block {
+        background: #fdfaf4;
+        padding: 3rem 2rem;
+        color: #3a2b1a;
+      }
+      .rdf-block h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #4d392f;
+      }
+      .rdf-block p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        max-width: 900px;
+        margin-bottom: 2rem;
+      }
+      .button {
+        background-color: transparent;
+        color: #5e4b2c;
+        padding: 0.75rem 1.6rem;
+        border: 2px solid #b47b00;
+        border-radius: 999px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .button:hover {
+        background-color: #fdd8a7;
+        color: #3c2a10;
+        border-color: #a06500;
+      }
+      pre {
+        background: #fefcf5;
+        border: 1px solid #e8dcc1;
+        padding: 2rem;
+        overflow-x: auto;
+        font-size: 0.85rem;
+        line-height: 1.6;
+        color: #3a2b1a;
+        max-width: 1000px;
+        margin-top: 2rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Brodsky Project</a>
+      <nav>
+        <a href="index.html#knowledge">Knowledge Organization</a>
+        <a href="index.html#representation">Knowledge Representation</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <section class="rdf-block">
+      <h1>Python RDF <Script></Script></h1>
+      <p>
+        This Python script generates the RDF dataset describing cultural heritage items related to Joseph Brodsky from CSV metadata. The output is serialized in Turtle format.
+      </p>
+      <div class="buttons">
+        <a class="button" href="downloads/python.py" download>Download Python Script</a>
+      </div>
+
+      <pre><code>from rdflib import Graph, Literal, Namespace, RDF, URIRef
+from rdflib.namespace import DC, XSD
+import pandas as pd
+import os
+
+SCHEMA = Namespace("http://schema.org/")
+LIDO = Namespace("http://www.lido-schema.org/")
+BASE = "http://brodskiy-lod.github.io/"
+
+g = Graph()
+g.bind("dc", DC)
+g.bind("xsd", XSD)
+g.bind("schema", SCHEMA)
+g.bind("lido", LIDO)
+
+def add_item(subject_id, data):
+    uri = URIRef(BASE + subject_id)
+    g.add((uri, DC.title, Literal(data.get("title"), datatype=XSD.string)))
+    g.add((uri, DC.creator, Literal(data.get("creator"), datatype=XSD.string)))
+    g.add((uri, DC.date, Literal(data.get("date"), datatype=XSD.gYear)))
+    g.add((uri, DC.description, Literal(data.get("description"), datatype=XSD.string)))
+    g.add((uri, DC.subject, Literal(data.get("subject"), datatype=XSD.string)))
+    g.add((uri, RDF.type, Literal(data.get("type"), datatype=XSD.string)))
+    if "location" in data:
+        g.add((uri, SCHEMA.location, Literal(data.get("location"), datatype=XSD.string)))
+    if "language" in data:
+        g.add((uri, DC.language, Literal(data.get("language"), datatype=XSD.string)))
+    if "format" in data:
+        g.add((uri, DC.format, Literal(data.get("format"), datatype=XSD.string)))
+    if "genre" in data:
+        g.add((uri, SCHEMA.genre, Literal(data.get("genre"), datatype=XSD.string)))
+    if "locationCreated" in data:
+        g.add((uri, SCHEMA.locationCreated, Literal(data.get("locationCreated"), datatype=XSD.string)))
+    if "relatedTo" in data:
+        for item in data["relatedTo"]:
+            g.add((uri, SCHEMA.relatedTo, Literal(item, datatype=XSD.string)))
+    if "inscription" in data:
+        g.add((uri, LIDO.inscriptionTranscription, Literal(data.get("inscription"), datatype=XSD.string)))
+
+# Example usage omitted for brevity
+g.serialize(destination="brodsky_output.ttl", format="turtle")
+</code></pre>
+    </section>
+  </body>
+</html>

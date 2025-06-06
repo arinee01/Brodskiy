@@ -6,137 +6,211 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      background: linear-gradient(135deg, #fdf6e3, #fbeac2, #f2dcc0);
-    }
-    header {
-      background: #5e4b2c;
-      color: #fff;
-      padding: 1.5rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #fdf6e3, #fbeac2, #f2dcc0);
+      }
+      header {
+        background: #5e4b2c;
+        color: #fff;
+        padding: 1.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+     
+      header a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      nav a {
+        margin-left: 2rem;
+        font-size: 0.95rem;
+      }
+      .rdf-block {
+        background: #fdfaf4;
+        padding: 3rem 2rem;
+        color: #3a2b1a;
+      }
+      .rdf-block h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #4d392f;
+      }
+      .rdf-block p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        max-width: 900px;
+        margin-bottom: 2rem;
+      }
+      .button {
+        background-color: transparent;
+        color: #5e4b2c;
+        padding: 0.75rem 1.6rem;
+        border: 2px solid #b47b00;
+        border-radius: 999px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .button:hover {
+        background-color: #fdd8a7;
+        color: #3c2a10;
+        border-color: #a06500;
+      }
+      pre {
+        background: #fefcf5;
+        border: 1px solid #e8dcc1;
+        padding: 2rem;
+        overflow-x: auto;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        color: #3a2b1a;
+        max-width: 1000px;
+        margin-top: 2rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Brodsky Project</a>
+      <nav>
+        <a href="index.html#knowledge">Knowledge Organization</a>
+        <a href="index.html#representation">Knowledge Representation</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
 
-    header a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-    nav a {
-      margin-left: 2rem;
-      font-size: 0.95rem;
-    }
-    .rdf-block {
-      background: #fdfaf4;
-      padding: 3rem 2rem;
-      color: #3a2b1a;
-    }
-    .rdf-block h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      color: #4d392f;
-    }
-    .rdf-block p {
-      font-size: 1.2rem;
-      line-height: 1.8;
-      max-width: 900px;
-      margin-bottom: 2rem;
-    }
-    .rdf-block .buttons {
-      margin-bottom: 2rem;
-    }
-    .button {
-      background-color: transparent;
-      color: #5e4b2c;
-      padding: 0.75rem 1.6rem;
-      border: 2px solid #b47b00;
-      border-radius: 999px;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-size: 1rem;
-      cursor: pointer;
-      text-decoration: none;
-      margin-right: 1rem;
-    }
-    .button:hover {
-      background-color: #fdd8a7;
-      color: #3c2a10;
-      border-color: #a06500;
-    }
-    pre {
-      background: #fefcf5;
-      border: 1px solid #e8dcc1;
-      padding: 2rem;
-      overflow-x: auto;
-      font-size: 0.9rem;
-      line-height: 1.6;
-      color: #3a2b1a;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    code .prefix { color: #5d6b00; }
-    code .uri { color: #94360c; }
-    code .string { color: #3b4d1e; }
-
-    main {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    
-    main h1, main h2 {
-      text-align: center;
-    }
-    
-    main p {
-      max-width: 800px;
-      margin: 0 auto 2rem;
-      line-height: 1.6;
-    }
-    
-
-  </style>
-</head>
-<body>
-
-  <header>
-    <a href="index.html">Brodsky Project</a>
-    <nav>
-      <a href="index.html#knowledge">Knowledge Organization</a>
-      <a href="index.html#representation">Knowledge Representation</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
-
-  <section class="rdf-block">
-    <h1>RDF</h1>
-    <p>
-      This page presents the RDF dataset representing cultural heritage items related to Joseph Brodsky.
-      The dataset uses standard ontologies including <code>dc:</code>, <code>schema:</code>, <code>rdf:</code>, <code>foaf:</code>, and <code>owl:</code>.
-    </p>
-    <div class="buttons">
-      <a class="button" href="Brodsky_Full_Expanded_RDF.ttl" target="_blank">View the raw file</a>
-      <a class="button" href="Brodsky_Full_Expanded_RDF.ttl" download>Download the raw file</a>
-    </div>
-    <pre><code>@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+    <section class="rdf-block">
+      <h1>RDF Dataset</h1>
+      <p>
+        The following Turtle serialization represents structured data describing cultural heritage items related to Joseph Brodsky, built using standard vocabularies such as <code>dc:</code>, <code>schema:</code>, and <code>xsd:</code>.
+      </p>
+      <div class="buttons">
+        <a class="button" href="downloads/rdf.ttl" target="_blank">View raw RDF file</a>
+        <a class="button" href="downloads/rdf.ttl" download>Download RDF</a>
+      </div>
+      
+      <pre><code>@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
 @prefix schema: &lt;http://schema.org/&gt; .
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
-@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix lido: &lt;http://www.lido-schema.org/&gt; .
 
-&lt;http://example.org/item/Joseph_Brodsky&gt;
-  rdf:type foaf:Person ;
-  foaf:name "Joseph Brodsky" ;
-  owl:sameAs &lt;https://dbpedia.org/resource/Joseph_Brodsky&gt; ;
-  dc:subject "Poetry" ;
-  schema:location "Venice" .</code></pre>
-  </section>
-</body>
+&lt;http://brodskiy-lod.github.io/Brodsky_Tombstone&gt;
+  dc:title "Joseph Brodsky’s tombstone"^^xsd:string ;
+  dc:creator "Vladimir Radunsky"^^xsd:string ;
+  dc:date "1997"^^xsd:gYear ;
+  dc:description "A tombstone created by Vladimir Radunsky in memory of Joseph Brodsky."^^xsd:string ;
+  dc:subject "Joseph Brodsky"^^xsd:string ;
+  rdf:type "Memorial"^^xsd:string ;
+  schema:location "Venice"^^xsd:string ;
+  schema:relatedTo "Memorial_plaque", "Photo_Brodsky_Venice" ;
+  lido:inscriptionTranscription "Iosif Brodsky 24.V.1940–28.1.1996"^^xsd:string .
+
+&lt;http://brodskiy-lod.github.io/Lagoon&gt;
+  dc:title "Lagoon"^^xsd:string ;
+  dc:creator "Joseph Brodsky"^^xsd:string ;
+  dc:date "1973"^^xsd:gYear ;
+  dc:description "Brodsky's first work dedicated to Venice"^^xsd:string ;
+  dc:language "English"^^xsd:string ;
+  rdf:type "Literary text"^^xsd:string ;
+  schema:genre "Poem"^^xsd:string ;
+  schema:locationCreated "Venice"^^xsd:string ;
+  schema:relatedTo "Memorial_plaque", "Watermark" .
+
+&lt;http://brodskiy-lod.github.io/Photo_Brodsky_Venice&gt;
+  dc:title "Photo of Brodsky in Venice"^^xsd:string ;
+  dc:creator "Veronica Schiltz"^^xsd:string ;
+  dc:date "1974"^^xsd:gYear ;
+  dc:format "Photograph"^^xsd:string ;
+  dc:description "One of a series of photographs taken during Brodsky's time in Venice."^^xsd:string ;
+  dc:subject "Joseph Brodsky"^^xsd:string ;
+  rdf:type "Image"^^xsd:string ;
+  schema:locationCreated "Venice"^^xsd:string ;
+  schema:relatedTo "Brodsky_Tombstone" .
+
+&lt;http://brodskiy-lod.github.io/Memorial_plaque&gt;
+  dc:title "Memorial Plaque for Joseph Brodsky"^^xsd:string ;
+  dc:creator "City of Venice"^^xsd:string ;
+  dc:date "2003"^^xsd:gYear ;
+  dc:description "Plaque placed at Brodsky’s usual lodging in Venice."^^xsd:string ;
+  dc:subject "Joseph Brodsky"^^xsd:string ;
+  dc:language "Italian"^^xsd:string ;
+  lido:inscriptionTranscription "A Joseph Brodsky, poeta e cittadino veneziano"^^xsd:string ;
+  schema:location "Pensione Academia, Venice"^^xsd:string ;
+  rdf:type "Plaque"^^xsd:string ;
+  schema:relatedTo "Brodsky_Tombstone", "Lagoon" .
+
+&lt;http://brodskiy-lod.github.io/Suitcase&gt;
+  dc:title "Brodsky's suitcase"^^xsd:string ;
+  dc:creator "Joseph Brodsky"^^xsd:string ;
+  dc:date "1972"^^xsd:gYear ;
+  dc:description "Suitcase Brodsky took into exile from USSR."^^xsd:string ;
+  rdf:type "Personal Object"^^xsd:string ;
+  dc:subject "Exile"^^xsd:string ;
+  schema:location "Venice"^^xsd:string ;
+  schema:relatedTo "brod_suitcase_poem" .
+
+&lt;http://brodskiy-lod.github.io/brod_suitcase_poem&gt;
+  dc:title "Poem on Suitcase"^^xsd:string ;
+  dc:creator "Joseph Brodsky"^^xsd:string ;
+  dc:description "Text inspired by the suitcase Brodsky carried into exile."^^xsd:string ;
+  rdf:type "Poem"^^xsd:string ;
+  dc:language "Russian"^^xsd:string ;
+  schema:relatedTo "Suitcase" .
+
+&lt;http://brodskiy-lod.github.io/Academia&gt;
+  dc:title "Pensione Academia"^^xsd:string ;
+  dc:creator "Unknown architect"^^xsd:string ;
+  dc:date "19th century"^^xsd:string ;
+  dc:description "The guesthouse where Brodsky stayed in Venice."^^xsd:string ;
+  rdf:type "Building"^^xsd:string ;
+  schema:location "Dorsoduro, Venice"^^xsd:string ;
+  schema:relatedTo "Memorial_plaque" .
+
+&lt;http://brodskiy-lod.github.io/Venezian_Stanzas&gt;
+  dc:title "Venetian Stanzas"^^xsd:string ;
+  dc:creator "Joseph Brodsky"^^xsd:string ;
+  dc:date "1989"^^xsd:gYear ;
+  dc:description "Poem reflecting on Venice and exile."^^xsd:string ;
+  dc:language "Russian"^^xsd:string ;
+  rdf:type "Literary text"^^xsd:string ;
+  schema:genre "Poem"^^xsd:string ;
+  schema:relatedTo "Watermark", "Lagoon" .
+
+&lt;http://brodskiy-lod.github.io/Watermark&gt;
+  dc:title "Watermark"^^xsd:string ;
+  dc:creator "Joseph Brodsky"^^xsd:string ;
+  dc:date "1992"^^xsd:gYear ;
+  dc:description "A memoir about Venice in winter."^^xsd:string ;
+  dc:language "English"^^xsd:string ;
+  rdf:type "Memoir"^^xsd:string ;
+  schema:locationCreated "Venice"^^xsd:string ;
+  schema:relatedTo "Venetian_Stanzas", "Lagoon" .
+
+&lt;http://brodskiy-lod.github.io/documentary&gt;
+  dc:title "Room and a Half: Brodsky in Venice"^^xsd:string ;
+  dc:creator "Andrey Khrzhanovsky"^^xsd:string ;
+  dc:date "2009"^^xsd:gYear ;
+  dc:description "Documentary exploring Brodsky’s life and relationship with Venice."^^xsd:string ;
+  rdf:type "Film"^^xsd:string ;
+  dc:language "Russian"^^xsd:string ;
+  schema:genre "Documentary"^^xsd:string ;
+  schema:locationCreated "Venice"^^xsd:string ;
+  schema:relatedTo "Watermark", "Photo_Brodsky_Venice" .
+</code></pre>
+    </section>
+  </body>
 </html>
