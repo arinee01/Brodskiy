@@ -1,0 +1,10 @@
+subject;predicate;object
+Venezian_Stanzas;dc:title;Venezian Stanzas
+Venezian_Stanzas;dc:creator;Joseph Brodsky
+Venezian_Stanzas;dc:type;Literary text
+Venezian_Stanzas;schema:genre;Poem
+Venezian_Stanzas;dc:subject;Venice
+Venezian_Stanzas;dc:language;English
+Venezian_Stanzas;dc:date;1980
+Venezian_Stanzas;schema:relatedTo;Watermark
+Venezian_Stanzas;schema:relatedTo;Tombstone

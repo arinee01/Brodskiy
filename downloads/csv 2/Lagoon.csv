@@ -1,0 +1,13 @@
+subject;predicate;object
+Lagoon;dc:title;Lagoon
+Lagoon;rdf:type;Literary text
+Lagoon;dc:creator;Joseph Brodsky
+Lagoon;schema:genre;Poem
+Lagoon;dc:date;1973
+Lagoon;schema:locationCreated;Venice
+Lagoon;dc:language;English
+Lagoon;dc:description;Brodsky's first work dedicated to Venice
+Lagoon;schema:about;Venice
+Lagoon;schema:comment;The original is written in Russian
+Lagoon;schema:relatedTo;Watermark
+Lagoon;schema:relatedTo;Memorial_plaque

@@ -1,0 +1,12 @@
+subject;predicate;object
+Memorial_plaque;dc:title;Memorial plaque
+Memorial_plaque;rdf:type;Memorial
+Memorial_plaque;dc:creator;Georgi Frangulyan
+Memorial_plaque;dc:date;2009
+Memorial_plaque;schema:material;Marble
+Memorial_plaque;schema:location;Venice
+Memorial_plaque;dc:subject;Joseph Brodsky
+Memorial_plaque;dc:language;"Italian; Russian"
+Memorial_plaque;lido:inscriptionTranscription;Brodskij Iosif (1940–1996) grande poeta russo...
+Memorial_plaque;dc:description;A marble memorial plaque dedicated to Joseph Brodsky.
+Memorial_plaque;schema:relatedTo;Tombstone

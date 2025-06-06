@@ -1,0 +1,11 @@
+subject;predicate;object
+Brodsky_Tombstone;dc:title;Joseph Brodsky’s tombstone
+Brodsky_Tombstone;rdf:type;Memorial
+Brodsky_Tombstone;dc:creator;Vladimir Radunsky
+Brodsky_Tombstone;dc:subject;Joseph Brodsky
+Brodsky_Tombstone;dc:date;1997
+Brodsky_Tombstone;schema:location;Venice
+Brodsky_Tombstone;lido:inscriptionTranscription;Iosif Brodsky 24.V.1940–28.1.1996
+Brodsky_Tombstone;dc:description;A tombstone created by Vladimir Radunsky in memory of Joseph Brodsky.
+Brodsky_Tombstone;schema:relatedTo;Memorial_plaque
+Brodsky_Tombstone;schema:relatedTo;Photo_Brodsky_Venice

@@ -1,0 +1,12 @@
+subject;predicate;object
+Walks_with_Brodsky;dc:title;Walks with Brodsky
+Walks_with_Brodsky;rdf:type;Documentary
+Walks_with_Brodsky;dc:creator;"Carmen Video (DVD); TV Russia (TV)"
+Walks_with_Brodsky;schema:datePublished;1993
+Walks_with_Brodsky;schema:locationCreated;Venice
+Walks_with_Brodsky;dc:description;A television documentary about the poet Joseph Brodsky.
+Walks_with_Brodsky;dc:subject;Joseph Brodsky
+Walks_with_Brodsky;dc:language;Russian
+Walks_with_Brodsky;schema:hasPart;Walks with Brodsky II. Filming History
+Walks_with_Brodsky;schema:duration;2:42:47
+Walks_with_Brodsky;schema:about;Joseph_Brodsky

@@ -1,0 +1,10 @@
+subject;predicate;object
+Photo_Brodsky_Venice;dc:title;Photo of Brodsky in Venice
+Photo_Brodsky_Venice;rdf:type;Image
+Photo_Brodsky_Venice;dc:creator;Veronica Schiltz
+Photo_Brodsky_Venice;dc:date;1974
+Photo_Brodsky_Venice;schema:locationCreated;Venice
+Photo_Brodsky_Venice;dc:format;Photograph
+Photo_Brodsky_Venice;dc:subject;Joseph Brodsky
+Photo_Brodsky_Venice;dc:description;One of a series of photographs taken during Brodsky's time in Venice.
+Photo_Brodsky_Venice;schema:relatedTo;Brodsky_Tombstone

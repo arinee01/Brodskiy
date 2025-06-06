@@ -1,0 +1,14 @@
+subject;predicate;object
+Watermark;dc:title;Watermark
+Watermark;rdf:type;Literary text
+Watermark;dc:creator;Joseph Brodsky
+Watermark;dc:publisher;"The Noonday Press; Farrar, Straus & Giroux"
+Watermark;dc:date;1989
+Watermark;schema:locationCreated;New York
+Watermark;schema:genre;Essay
+Watermark;dc:subject;Venice
+Watermark;dc:language;English
+Watermark;dc:description;Lyrical essay by Joseph Brodsky that captures the spirit of Venice.
+Watermark;dcterms:identifier;ISBN 978-03-7452-382-4
+Watermark;schema:relatedTo;Lagoon
+Watermark;schema:relatedTo;Venezian_Stanzas

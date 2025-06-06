@@ -1,0 +1,8 @@
+subject;predicate;object
+Pensione_Academia;dc:title;Pensione Academia
+Pensione_Academia;rdf:type;Building
+Pensione_Academia;schema:dateCreated;17th century
+Pensione_Academia;schema:location;Venice
+Pensione_Academia;schema:function;Hotel
+Pensione_Academia;dc:description;The hotel where Brodsky stayed during his visits to Venice.
+Pensione_Academia;schema:relatedTo;Watermark
